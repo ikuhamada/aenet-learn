@@ -1,0 +1,167 @@
+ ======================================================================
+                       Training process started.                       
+ ======================================================================
+                                                                       
+                          2021-02-08  15:47:18                         
+                                                                       
+ 
+ Copyright (C) 2015-2018 Nongnuch Artrith and Alexander Urban
+ 
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ Mozilla Public License, v. 2.0, for more details.
+ 
+ ----------------------------------------------------------------------
+                              Parallel run                             
+ ----------------------------------------------------------------------
+ 
+ Number of processes : 1
+ 
+ ----------------------------------------------------------------------
+                       Training set normalization                      
+ ----------------------------------------------------------------------
+ 
+ The training set will be normalized now.  Depending on its size this
+ process can take a while.  The normalized data set will be written to
+ another file. Load that file in future to avoid this step.
+ 
+ Name of the new training set file: LJ.train.scaled
+ 
+ The network output energy will be normalized to the interval [-1,1].
+   Energy scaling factor: f = 1.227524
+   Atomic energy shift  : s = -0.913110
+ 
+ Training set normalization done.
+ 
+ ----------------------------------------------------------------------
+                                Networks                               
+ ----------------------------------------------------------------------
+ 
+ Creating a new C network
+ 
+ Number of layers :   4
+ 
+ Number of nodes (without bias) 
+ and activation type per layer :
+ 
+       1 :    12
+       2 :     5  hyperbolic tangent (tanh)
+       3 :     5  hyperbolic tangent (tanh)
+       4 :     1  linear function (linear)
+ 
+ Required memory (words) :       5619 (     43.90 KB)
+ 
+ Total number of weights (incl. bias) :      101
+ 
+ Timing info will be written to: train.time
+ 
+ ----------------------------------------------------------------------
+                            Storing networks                           
+ ----------------------------------------------------------------------
+ 
+ Saving the C network to file : C.5t-5t.ann
+ 
+ ----------------------------------------------------------------------
+                           Training set info.                          
+ ----------------------------------------------------------------------
+ 
+ Training set file                   : LJ.train.scaled
+ Number of structures in the data set: 8
+ 
+ Atomic species in training set      : 1
+   Species : C
+ 
+ Average energy (eV/atom) : 0.328881
+ Minimum energy (eV/atom) : -1.000000
+ Maximum energy (eV/atom) : 1.000000
+ 
+ The input and output values have been normalized to [-1.0, 1.0].
+ Structures outside of this interval will not be used for training.
+   Energy scaling factor: 1.227524
+   Atomic energy shift  : -0.913110
+ 
+ ----------------------------------------------------------------------
+                            Training details                           
+ ----------------------------------------------------------------------
+ 
+ Training method         : Limited Memory BFGS
+ 
+ Number of iterations    : 1000
+ 
+ Training structures     : 8
+ Testing  structures     : 0
+ 
+ Testing set : 
+ 
+ 
+ ----------------------------------------------------------------------
+                            Training process                           
+ ----------------------------------------------------------------------
+ 
+ Weight optimization for 1000 epochs using the Limited Memory BFGS method.
+ 
+ Sampling type               : sequential
+ 
+        |------------TRAIN-----------|  |------------TEST------------|
+ epoch             MAE          <RMSE>             MAE          <RMSE>
+     0    3.792788E-01    5.043621E-01    0.000000E+00             NaN <
+     1    3.792788E-01    5.043621E-01    0.000000E+00             NaN <
+     2    2.973351E-01    3.877889E-01    0.000000E+00             NaN <
+     3    2.436510E-01    3.039386E-01    0.000000E+00             NaN <
+     4    1.715314E-01    2.641689E-01    0.000000E+00             NaN <
+     5    1.526679E-01    2.558221E-01    0.000000E+00             NaN <
+     6    1.401405E-01    2.476031E-01    0.000000E+00             NaN <
+     7    1.472565E-01    2.379273E-01    0.000000E+00             NaN <
+     8    2.089253E-01    3.106390E-01    0.000000E+00             NaN <
+     9    1.447427E-01    2.299414E-01    0.000000E+00             NaN <
+    10    5.790336E-01    6.828914E-01    0.000000E+00             NaN <
+    11    1.426538E-01    2.274559E-01    0.000000E+00             NaN <
+    12    1.322978E-01    2.160530E-01    0.000000E+00             NaN <
+    13    1.117668E-01    1.932975E-01    0.000000E+00             NaN <
+    14    9.516369E-02    1.125688E-01    0.000000E+00             NaN <
+    15    1.221423E-01    1.486989E-01    0.000000E+00             NaN <
+    16    6.849644E-02    7.176273E-02    0.000000E+00             NaN <
+    17    4.628234E-02    6.165415E-02    0.000000E+00             NaN <
+    18    4.107507E-02    4.574593E-02    0.000000E+00             NaN <
+    19    3.166510E-02    3.669893E-02    0.000000E+00             NaN <
+    20    2.130004E-02    2.674005E-02    0.000000E+00             NaN <
+    21    1.822170E-02    2.339213E-02    0.000000E+00             NaN <
+    22    1.760203E-02    2.267369E-02    0.000000E+00             NaN <
+    23    1.624973E-02    2.091089E-02    0.000000E+00             NaN <
+    24    1.447634E-02    1.931801E-02    0.000000E+00             NaN <
+    25    1.300080E-02    1.653977E-02    0.000000E+00             NaN <
+    26    8.269041E-03    1.027742E-02    0.000000E+00             NaN <
+    27    4.167671E-03    6.150400E-03    0.000000E+00             NaN <
+    28    2.094931E-03    2.515335E-03    0.000000E+00             NaN <
+    29    7.536453E-04    9.046139E-04    0.000000E+00             NaN <
+    30    2.133279E-04    2.325743E-04    0.000000E+00             NaN <
+    31    1.634490E-04    1.897918E-04    0.000000E+00             NaN <
+    32    1.383792E-04    1.752230E-04    0.000000E+00             NaN <
+    33    1.188222E-04    1.482139E-04    0.000000E+00             NaN <
+    34    7.866672E-05    9.728420E-05    0.000000E+00             NaN <
+    35    2.639092E-05    3.063957E-05    0.000000E+00             NaN <
+    36    6.484227E-06    7.685694E-06    0.000000E+00             NaN <
+    37    2.362116E-06    3.013345E-06    0.000000E+00             NaN <
+    38    9.611172E-07    1.248333E-06    0.000000E+00             NaN <
+    39    2.388918E-07    2.647538E-07    0.000000E+00             NaN <
+    40    2.388918E-07    2.647538E-07    0.000000E+00             NaN <
+    41    2.388918E-07    2.647538E-07    0.000000E+00             NaN <
+    42    2.388918E-07    2.647538E-07    0.000000E+00             NaN <
+ The optimization has converged. Training stopped.
+ 
+ 
+ Training finished.
+ 
+ ----------------------------------------------------------------------
+                            Storing networks                           
+ ----------------------------------------------------------------------
+ 
+ Saving the C network to file : C.5t-5t.ann
+ 
+                                                                       
+                          2021-02-08  15:47:18                         
+                                                                       
+ ======================================================================
+                     Neural Network training done.                     
+ ======================================================================

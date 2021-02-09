@@ -1,0 +1,94 @@
+ ======================================================================
+                  generate.x - training set generation                 
+ ======================================================================
+ 
+ Copyright (C) 2015-2018 Nongnuch Artrith and Alexander Urban
+ 
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ Mozilla Public License, v. 2.0, for more details.
+ 
+ ----------------------------------------------------------------------
+                   Generation of training set started                  
+ ----------------------------------------------------------------------
+ 
+ Number of atom types  : 1
+ types                 :    C  
+ Number of structures  : 8
+ 
+ ----------------------------------------------------------------------
+                  Structural fingerprint basis set-up                  
+ ----------------------------------------------------------------------
+ 
+ Structural fingerprint (SF) set-up for C
+ 
+ N. Artrith and A. Urban, Comput. Mater. Sci. 114 (2016) 135-150.
+ N. Artrith, A. Urban, and G. Ceder, Phys. Rev. B 96 (2017) 014112.
+ 
+ environment types: C  
+ minimal distance : 0.50 Angstrom
+ maximal cut-off  : 4.00 Angstrom
+ size of basis    : 12
+ evaluations      : 0
+ 
+ Basis function type Chebyshev
+ [N. Artrith and A. Urban (2016)]
+ 
+ Radial Rc     : 4.00
+ Angular Rc    : 4.00
+ Radial order  : 10
+ Angular order : 0
+ 
+ ----------------------------------------------------------------------
+                 Adding structures to the training set                 
+ ----------------------------------------------------------------------
+ 
+#     N  nAtoms  nTypes           E/atom  structure file (xsf)
+      1       2       1  -7.29864950E-01  ../xsf/structure01.xsf
+      1   C       1
+      2   C       1
+      2       2       1  -1.72775839E+00  ../xsf/structure02.xsf
+      1   C       1
+      2   C       1
+      3       2       1  -1.13721330E+00  ../xsf/structure03.xsf
+      1   C       1
+      2   C       1
+      4       2       1  -6.73435685E-01  ../xsf/structure04.xsf
+      1   C       1
+      2   C       1
+      5       2       1  -3.99397180E-01  ../xsf/structure05.xsf
+      1   C       1
+      2   C       1
+      6       2       1  -2.42982660E-01  ../xsf/structure06.xsf
+      1   C       1
+      2   C       1
+      7       2       1  -1.52388160E-01  ../xsf/structure07.xsf
+      1   C       1
+      2   C       1
+      8       2       1  -9.84621950E-02  ../xsf/structure08.xsf
+      1   C       1
+      2   C       1
+ 
+ ----------------------------------------------------------------------
+                           Training set info.                          
+ ----------------------------------------------------------------------
+ 
+ Training set file                   : LJ.train
+ Number of structures in the data set: 8
+ 
+ Atomic species in training set      : 1
+   Species : C
+ 
+ Average energy (eV/atom) : -0.645188
+ Minimum energy (eV/atom) : -1.727758
+ Maximum energy (eV/atom) : -0.098462
+ 
+ The input and output values have not yet been normalized.
+ 
+                                                                       
+                          2021-02-08  15:45:13                         
+                                                                       
+ ======================================================================
+                     Training set generation done.                     
+ ======================================================================

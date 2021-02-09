@@ -1,0 +1,275 @@
+ ----------------------------------------------------------------------
+                              Parallel run                             
+ ----------------------------------------------------------------------
+ 
+ Number of processes : 1
+ 
+ ======================================================================
+                  Atomic Energy Network Interpolation                  
+ ======================================================================
+                                                                       
+                          2021-02-08  15:48:13                         
+                                                                       
+ 
+ Copyright (C) 2015-2018 Nongnuch Artrith and Alexander Urban
+ 
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ Mozilla Public License, v. 2.0, for more details.
+ 
+ Atomic species : C
+ File name      : C.5t-5t.ann
+ 
+ ----------------------------------------------------------------------
+                           Training set info.                          
+ ----------------------------------------------------------------------
+ 
+ Training set file                   : LJ.train.scaled
+ Number of structures in the data set: 8
+ 
+ Atomic species in training set      : 1
+   Species : C
+ 
+ Average energy (eV/atom) : 0.328881
+ Minimum energy (eV/atom) : -1.000000
+ Maximum energy (eV/atom) : 1.000000
+ 
+ The input and output values have been normalized to [-1.0, 1.0].
+ Structures outside of this interval will not be used for training.
+   Energy scaling factor: 1.227524
+   Atomic energy shift  : -0.913110
+ 
+ Number of layers :   4
+ 
+ Number of nodes (without bias) 
+ and activation type per layer :
+ 
+       1 :    12
+       2 :     5  hyperbolic tangent (tanh)
+       3 :     5  hyperbolic tangent (tanh)
+       4 :     1  linear function (linear)
+ 
+ Required memory (words) :       5619 (     43.90 KB)
+ 
+ Total number of weights (incl. bias) :      101
+ 
+ Structural fingerprint (SF) set-up for C
+ 
+ N. Artrith and A. Urban, Comput. Mater. Sci. 114 (2016) 135-150.
+ N. Artrith, A. Urban, and G. Ceder, Phys. Rev. B 96 (2017) 014112.
+ 
+ environment types: C  
+ minimal distance : 0.50 Angstrom
+ maximal cut-off  : 4.00 Angstrom
+ size of basis    : 12
+ evaluations      : 16
+ 
+ Basis function type Chebyshev
+ [N. Artrith and A. Urban (2016)]
+ 
+ Radial Rc     : 4.00
+ Angular Rc    : 4.00
+ Radial order  : 10
+ Angular order : 0
+ 
+ ----------------------------------------------------------------------
+                           Energy evaluation                           
+ ----------------------------------------------------------------------
+ 
+ Structure number  : 1
+ File name         : ../xsf/structure01.xsf
+ Number of atoms   : 2
+ Number of species : 1
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        1.40000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       0.00000200 )
+ 
+ Cartesian atomic coordinates (input):
+ 
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ C       0.000000     -0.000000     -0.000000
+ C       1.400000     -0.000000     -0.000000
+ 
+ Cohesive energy            :           -1.45972969 eV
+ Total energy               :           -1.45972969 eV
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 2
+ File name         : ../xsf/structure02.xsf
+ Number of atoms   : 2
+ Number of species : 1
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        1.60000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       0.00000200 )
+ 
+ Cartesian atomic coordinates (input):
+ 
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ C       0.000000     -0.000000     -0.000000
+ C       1.600000     -0.000000     -0.000000
+ 
+ Cohesive energy            :           -3.45551734 eV
+ Total energy               :           -3.45551734 eV
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 3
+ File name         : ../xsf/structure03.xsf
+ Number of atoms   : 2
+ Number of species : 1
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        1.80000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       0.00000200 )
+ 
+ Cartesian atomic coordinates (input):
+ 
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ C       0.000000     -0.000000     -0.000000
+ C       1.800000     -0.000000     -0.000000
+ 
+ Cohesive energy            :           -2.27442720 eV
+ Total energy               :           -2.27442720 eV
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 4
+ File name         : ../xsf/structure04.xsf
+ Number of atoms   : 2
+ Number of species : 1
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        2.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       0.00000200 )
+ 
+ Cartesian atomic coordinates (input):
+ 
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ C       0.000000     -0.000000     -0.000000
+ C       2.000000     -0.000000     -0.000000
+ 
+ Cohesive energy            :           -1.34687086 eV
+ Total energy               :           -1.34687086 eV
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 5
+ File name         : ../xsf/structure05.xsf
+ Number of atoms   : 2
+ Number of species : 1
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        2.20000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       0.00000200 )
+ 
+ Cartesian atomic coordinates (input):
+ 
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ C       0.000000     -0.000000     -0.000000
+ C       2.200000     -0.000000     -0.000000
+ 
+ Cohesive energy            :           -0.79879421 eV
+ Total energy               :           -0.79879421 eV
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 6
+ File name         : ../xsf/structure06.xsf
+ Number of atoms   : 2
+ Number of species : 1
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        2.40000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       0.00000200 )
+ 
+ Cartesian atomic coordinates (input):
+ 
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ C      -0.000000     -0.000000     -0.000000
+ C       2.400000     -0.000000     -0.000000
+ 
+ Cohesive energy            :           -0.48596506 eV
+ Total energy               :           -0.48596506 eV
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 7
+ File name         : ../xsf/structure07.xsf
+ Number of atoms   : 2
+ Number of species : 1
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        2.60000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       0.00000200 )
+ 
+ Cartesian atomic coordinates (input):
+ 
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ C       0.000000     -0.000000     -0.000000
+ C       2.600000     -0.000000     -0.000000
+ 
+ Cohesive energy            :           -0.30477559 eV
+ Total energy               :           -0.30477559 eV
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 8
+ File name         : ../xsf/structure08.xsf
+ Number of atoms   : 2
+ Number of species : 1
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        2.80000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       0.00000200 )
+ 
+ Cartesian atomic coordinates (input):
+ 
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ C      -0.000000     -0.000000     -0.000000
+ C       2.800000     -0.000000     -0.000000
+ 
+ Cohesive energy            :           -0.19692519 eV
+ Total energy               :           -0.19692519 eV
+ 
+                                                                       
+                          2021-02-08  15:48:13                         
+                                                                       
+ ======================================================================
+                      Atomic Energy Network done.                      
+ ======================================================================

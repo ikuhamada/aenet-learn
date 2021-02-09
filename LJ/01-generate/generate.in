@@ -1,0 +1,19 @@
+OUTPUT LJ.train
+
+TYPES
+1
+C 0.0
+
+SETUPS
+C C.fingerprint.stp
+
+FILES
+8
+../xsf/structure01.xsf
+../xsf/structure02.xsf
+../xsf/structure03.xsf
+../xsf/structure04.xsf
+../xsf/structure05.xsf
+../xsf/structure06.xsf
+../xsf/structure07.xsf
+../xsf/structure08.xsf
