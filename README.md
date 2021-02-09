@@ -13,6 +13,9 @@ In the subdirectories, you can find the following directories:
 01-generate/  02-train/  03-test/  04-predict/	xsf/
 ```
 
+``01-generate/``, ``02-train/``, ``03-test/``, and ``04-predict`` are used to generate a training set, to train the neural network, to verify the neural network potential, and to predict the energies of given strucures.
+``xsf/`` contains the reference structures and energies to learn.
+
 ## Directions
 
 ### Lenard-Jones potential
