@@ -20,6 +20,12 @@ In the subdirectories, you can find the following directories:
 
 ### Lenard-Jones potential
 
+Analytic Lenard-Jones potential
+
 ### Water dimer
 
+Water dimer calculated with vdW-DF
+
 ### Argon dimer
+
+Argon dimer calculated with vdW-DF
