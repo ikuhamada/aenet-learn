@@ -8,7 +8,7 @@ First of all, generate.x, train.x, and predict.x are compiled successfully and p
 These executable has different names, depending on the environment and platform they are compiled.
 In the working directory, get the data files by typing:
 
-```
+```Bash
 git clone https://github.com/ikuhamada/aenet-learn.git
 ```
 
