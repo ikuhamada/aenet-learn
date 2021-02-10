@@ -1,0 +1,2135 @@
+ ----------------------------------------------------------------------
+                              Parallel run                             
+ ----------------------------------------------------------------------
+ 
+ Number of processes : 1
+ 
+ ======================================================================
+                  Atomic Energy Network Interpolation                  
+ ======================================================================
+                                                                       
+                          2021-02-08  16:48:48                         
+                                                                       
+ 
+ Copyright (C) 2015-2018 Nongnuch Artrith and Alexander Urban
+ 
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ Mozilla Public License, v. 2.0, for more details.
+ 
+ Atomic species : H
+ File name      : H.10t-10t.ann
+ 
+ ----------------------------------------------------------------------
+                           Training set info.                          
+ ----------------------------------------------------------------------
+ 
+ Training set file                   : H2O.train.scaled
+ Number of structures in the data set: 14
+ 
+ Atomic species in training set      : 2
+   Species : H O
+ 
+ Average energy (eV/atom) : -0.063838
+ Minimum energy (eV/atom) : -1.000000
+ Maximum energy (eV/atom) : 1.000000
+ 
+ The input and output values have been normalized to [-1.0, 1.0].
+ Structures outside of this interval will not be used for training.
+   Energy scaling factor: 55.962441
+   Atomic energy shift  : -3.455197
+ 
+ Number of layers :   4
+ 
+ Number of nodes (without bias) 
+ and activation type per layer :
+ 
+       1 :    27
+       2 :    10  hyperbolic tangent (tanh)
+       3 :    10  hyperbolic tangent (tanh)
+       4 :     1  linear function (linear)
+ 
+ Required memory (words) :      48919 (    382.18 KB)
+ 
+ Total number of weights (incl. bias) :      401
+ 
+ Structural fingerprint (SF) set-up for H
+ 
+   Structural fingerprint setup for H in water
+   Reference: T. Morawietz, A. Singraber, C. Dellago, and J. Behler
+   Proc. Natl. Acad. Sci. USA 113, 8368-8373 (2016).
+ 
+ environment types: H  O  
+ minimal distance : 0.60 Angstrom
+ maximal cut-off  : 3.36 Angstrom
+ size of basis    : 27
+ evaluations      : 56
+ 
+ Basis function type Behler2011
+ 
+ [see also: J. Behler, J. Chem. Phys. 134 (2011) 074106]
+ 
+ 
+      G  parameters
+ 
+   1  2  type2=H   Rc =   3.360  Rs =   0.000  eta =   0.004
+   2  2  type2=O   Rc =   3.360  Rs =   0.000  eta =   0.004
+   3  2  type2=H   Rc =   3.360  Rs =   0.000  eta =   0.036
+   4  2  type2=O   Rc =   3.360  Rs =   0.000  eta =   0.036
+   5  2  type2=H   Rc =   3.360  Rs =   0.000  eta =   0.107
+   6  2  type2=O   Rc =   3.360  Rs =   0.000  eta =   0.107
+   7  2  type2=H   Rc =   3.360  Rs =   0.000  eta =   0.214
+   8  2  type2=O   Rc =   3.360  Rs =   0.000  eta =   0.214
+   9  2  type2=O   Rc =   3.360  Rs =   0.476  eta =   0.536
+  10  2  type2=H   Rc =   3.360  Rs =   1.005  eta =   0.536
+  11  2  type2=O   Rc =   3.360  Rs =   0.476  eta =   1.071
+  12  2  type2=H   Rc =   3.360  Rs =   1.005  eta =   1.071
+  13  2  type2=O   Rc =   3.360  Rs =   0.476  eta =   2.143
+  14  2  type2=H   Rc =   3.360  Rs =   1.005  eta =   2.143
+  15  2  type2=O   Rc =   3.360  Rs =   0.476  eta =   5.357
+  16  2  type2=H   Rc =   3.360  Rs =   1.005  eta =   5.357
+  17  4  type2=O   type3=O   Rc =   3.360  lambda =  -1.000  zeta =   4.000  eta =   0.004
+  18  4  type2=O   type3=O   Rc =   3.360  lambda =   1.000  zeta =   4.000  eta =   0.004
+  19  4  type2=H   type3=O   Rc =   3.360  lambda =  -1.000  zeta =   4.000  eta =   0.036
+  20  4  type2=H   type3=O   Rc =   3.360  lambda =   1.000  zeta =   4.000  eta =   0.036
+  21  4  type2=H   type3=O   Rc =   3.360  lambda =  -1.000  zeta =   1.000  eta =   0.107
+  22  4  type2=O   type3=O   Rc =   3.360  lambda =  -1.000  zeta =   1.000  eta =   0.107
+  23  4  type2=H   type3=O   Rc =   3.360  lambda =   1.000  zeta =   1.000  eta =   0.107
+  24  4  type2=O   type3=O   Rc =   3.360  lambda =   1.000  zeta =   1.000  eta =   0.107
+  25  4  type2=H   type3=O   Rc =   3.360  lambda =  -1.000  zeta =   1.000  eta =   0.250
+  26  4  type2=H   type3=O   Rc =   3.360  lambda =   1.000  zeta =   1.000  eta =   0.250
+  27  4  type2=H   type3=O   Rc =   3.360  lambda =   1.000  zeta =   1.000  eta =   0.714
+ 
+ Atomic species : O
+ File name      : O.10t-10t.ann
+ 
+ ----------------------------------------------------------------------
+                           Training set info.                          
+ ----------------------------------------------------------------------
+ 
+ Training set file                   : H2O.train.scaled
+ Number of structures in the data set: 14
+ 
+ Atomic species in training set      : 2
+   Species : H O
+ 
+ Average energy (eV/atom) : -0.063838
+ Minimum energy (eV/atom) : -1.000000
+ Maximum energy (eV/atom) : 1.000000
+ 
+ The input and output values have been normalized to [-1.0, 1.0].
+ Structures outside of this interval will not be used for training.
+   Energy scaling factor: 55.962441
+   Atomic energy shift  : -3.455197
+ 
+ Number of layers :   4
+ 
+ Number of nodes (without bias) 
+ and activation type per layer :
+ 
+       1 :    30
+       2 :    10  hyperbolic tangent (tanh)
+       3 :    10  hyperbolic tangent (tanh)
+       4 :     1  linear function (linear)
+ 
+ Required memory (words) :      65443 (    511.27 KB)
+ 
+ Total number of weights (incl. bias) :      431
+ 
+ Structural fingerprint (SF) set-up for O
+ 
+   Structural fingerprint setup for H in water
+   Reference: T. Morawietz, A. Singraber, C. Dellago, and J. Behler
+   Proc. Natl. Acad. Sci. USA 113, 8368-8373 (2016).
+ 
+ environment types: H  O  
+ minimal distance : 0.60 Angstrom
+ maximal cut-off  : 3.36 Angstrom
+ size of basis    : 30
+ evaluations      : 28
+ 
+ Basis function type Behler2011
+ 
+ [see also: J. Behler, J. Chem. Phys. 134 (2011) 074106]
+ 
+ 
+      G  parameters
+ 
+   1  2  type2=H   Rc =   3.360  Rs =   0.000  eta =   0.004
+   2  2  type2=O   Rc =   3.360  Rs =   0.000  eta =   0.004
+   3  2  type2=H   Rc =   3.360  Rs =   0.000  eta =   0.036
+   4  2  type2=O   Rc =   3.360  Rs =   0.000  eta =   0.036
+   5  2  type2=H   Rc =   3.360  Rs =   0.000  eta =   0.107
+   6  2  type2=O   Rc =   3.360  Rs =   0.000  eta =   0.107
+   7  2  type2=H   Rc =   3.360  Rs =   0.000  eta =   0.214
+   8  2  type2=O   Rc =   3.360  Rs =   0.000  eta =   0.214
+   9  2  type2=H   Rc =   3.360  Rs =   0.476  eta =   0.536
+  10  2  type2=O   Rc =   3.360  Rs =   2.117  eta =   0.536
+  11  2  type2=H   Rc =   3.360  Rs =   0.476  eta =   1.071
+  12  2  type2=O   Rc =   3.360  Rs =   2.117  eta =   1.071
+  13  2  type2=H   Rc =   3.360  Rs =   0.476  eta =   2.143
+  14  2  type2=O   Rc =   3.360  Rs =   2.117  eta =   2.143
+  15  2  type2=H   Rc =   3.360  Rs =   0.476  eta =   5.357
+  16  2  type2=O   Rc =   3.360  Rs =   2.117  eta =   5.357
+  17  4  type2=H   type3=O   Rc =   3.360  lambda =  -1.000  zeta =   4.000  eta =   0.004
+  18  4  type2=O   type3=O   Rc =   3.360  lambda =  -1.000  zeta =   4.000  eta =   0.004
+  19  4  type2=H   type3=O   Rc =   3.360  lambda =   1.000  zeta =   4.000  eta =   0.004
+  20  4  type2=O   type3=O   Rc =   3.360  lambda =   1.000  zeta =   4.000  eta =   0.004
+  21  4  type2=H   type3=H   Rc =   3.360  lambda =  -1.000  zeta =   4.000  eta =   0.036
+  22  4  type2=H   type3=H   Rc =   3.360  lambda =   1.000  zeta =   4.000  eta =   0.036
+  23  4  type2=H   type3=H   Rc =   3.360  lambda =  -1.000  zeta =   1.000  eta =   0.107
+  24  4  type2=H   type3=O   Rc =   3.360  lambda =  -1.000  zeta =   1.000  eta =   0.107
+  25  4  type2=O   type3=O   Rc =   3.360  lambda =  -1.000  zeta =   1.000  eta =   0.107
+  26  4  type2=H   type3=H   Rc =   3.360  lambda =   1.000  zeta =   1.000  eta =   0.107
+  27  4  type2=H   type3=O   Rc =   3.360  lambda =   1.000  zeta =   1.000  eta =   0.107
+  28  4  type2=O   type3=O   Rc =   3.360  lambda =   1.000  zeta =   1.000  eta =   0.107
+  29  4  type2=H   type3=H   Rc =   3.360  lambda =  -1.000  zeta =   1.000  eta =   0.250
+  30  4  type2=H   type3=H   Rc =   3.360  lambda =   1.000  zeta =   1.000  eta =   0.250
+ 
+ ----------------------------------------------------------------------
+                           Energy evaluation                           
+ ----------------------------------------------------------------------
+ 
+ Structure number  : 1
+ File name         : ./xsf/train4_newdimer_01-02_000.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        2.81461399       0.00000000       0.00000000 )
+   b = (        0.00000000       1.16733000       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000      1.111368     -1.999552      0.000000
+ H       1.680000     -0.374000     -0.759000     -0.712867      0.963805      1.208527
+ H       1.680000     -0.374000      0.759000     -0.712867      0.963805     -1.208527
+ O      -0.751612     -0.083672     -0.000000      0.033424     -2.534916      0.000000
+ H      -1.134612      0.793328     -0.000000     -9.229084      6.703224     -0.000000
+ H       0.199388      0.072328     -0.000000      9.510026     -4.096367     -0.000000
+ 
+ Cohesive energy            :          -20.45541840 eV
+ Total energy               :        -1195.64513656 eV
+ Mean force (must be zero)  :     -0.000000      0.000000      0.000000
+ Mean absolute force        :      3.551606      2.876945      0.402842
+ Maximum force              :     -9.229084      6.703224     -0.000000
+ RMS force                  :      6.516461
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 2
+ File name         : ./xsf/train4_newdimer_01-02_001.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        2.91453799       0.00000000       0.00000000 )
+   b = (        0.00000000       1.16341400       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000      1.080634     -1.151910      0.000000
+ H       1.680000     -0.374000     -0.759000     -0.266853      0.537999     -0.577835
+ H       1.680000     -0.374000      0.759000     -0.266853      0.537999      0.577835
+ O      -0.851536     -0.087588     -0.000000     -1.200200     -2.387627     -0.000000
+ H      -1.234536      0.789412     -0.000000     -8.089314      5.916533     -0.000000
+ H       0.099464      0.068412     -0.000000      8.742587     -3.452994      0.000000
+ 
+ Cohesive energy            :          -20.48550636 eV
+ Total energy               :        -1195.67522451 eV
+ Mean force (must be zero)  :      0.000000     -0.000000      0.000000
+ Mean absolute force        :      3.274407      2.330844      0.192612
+ Maximum force              :     -8.089314      5.916533     -0.000000
+ RMS force                  :      5.770953
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 3
+ File name         : ./xsf/train4_newdimer_01-02_002.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.01446199       0.00000000       0.00000000 )
+   b = (        0.00000000       1.15949800       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -0.277498      0.298080      0.000000
+ H       1.680000     -0.374000     -0.759000      0.347390     -0.233005     -9.539710
+ H       1.680000     -0.374000      0.759000      0.347390     -0.233005      9.539710
+ O      -0.951460     -0.091504     -0.000000      0.734872     -3.779846     -0.000000
+ H      -1.334460      0.785496     -0.000000    -12.976688      9.747196     -0.000000
+ H      -0.000460      0.064496     -0.000000     11.824533     -5.799421      0.000000
+ 
+ Cohesive energy            :          -20.53536141 eV
+ Total energy               :        -1195.72507957 eV
+ Mean force (must be zero)  :     -0.000000      0.000000      0.000000
+ Mean absolute force        :      4.418062      3.348425      3.179903
+ Maximum force              :    -12.976688      9.747196     -0.000000
+ RMS force                  :     10.281134
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 4
+ File name         : ./xsf/train4_newdimer_01-02_003.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.11438599       0.00000000       0.00000000 )
+   b = (        0.00000000       1.15558200       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -5.857663      9.684501     -0.000000
+ H       1.680000     -0.374000     -0.759000      3.343844     -4.805296    -13.955758
+ H       1.680000     -0.374000      0.759000      3.343844     -4.805296     13.955758
+ O      -1.051384     -0.095420     -0.000000      0.425850     -8.342456     -0.000000
+ H      -1.434384      0.781580     -0.000000    -27.091469     20.749717      0.000000
+ H      -0.100384      0.060580     -0.000000     25.835594    -12.481171      0.000000
+ 
+ Cohesive energy            :          -20.64191077 eV
+ Total energy               :        -1195.83162893 eV
+ Mean force (must be zero)  :     -0.000000      0.000000     -0.000000
+ Mean absolute force        :     10.983044     10.144739      4.651919
+ Maximum force              :    -27.091469     20.749717      0.000000
+ RMS force                  :     20.990897
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 5
+ File name         : ./xsf/train4_newdimer_01-02_004.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.21430999       0.00000000       0.00000000 )
+   b = (        0.00000000       1.15166600       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -1.250515      2.358653      0.000000
+ H       1.680000     -0.374000     -0.759000      0.883932     -1.154385    -22.936065
+ H       1.680000     -0.374000      0.759000      0.883932     -1.154385     22.936065
+ O      -1.151308     -0.099336     -0.000000      1.289447    -13.130636     -0.000000
+ H      -1.534308      0.777664     -0.000000    -40.580720     31.554863      0.000000
+ H      -0.200308      0.056664     -0.000000     38.773924    -18.474109     -0.000000
+ 
+ Cohesive energy            :          -20.67651619 eV
+ Total energy               :        -1195.86623435 eV
+ Mean force (must be zero)  :      0.000000      0.000000     -0.000000
+ Mean absolute force        :     13.943745     11.304505      7.645355
+ Maximum force              :    -40.580720     31.554863      0.000000
+ RMS force                  :     30.888972
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 6
+ File name         : ./xsf/train4_newdimer_02-03_001.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.26427099       0.00000000       0.00000000 )
+   b = (        0.00000000       1.14970800       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000      7.014663     -8.206202     -0.000000
+ H       1.680000     -0.374000     -0.759000     -2.521126      4.153640     -7.773438
+ H       1.680000     -0.374000      0.759000     -2.521126      4.153640      7.773438
+ O      -1.201269     -0.101294     -0.000000     -1.165866    -12.700238      0.000000
+ H      -1.584269      0.775706     -0.000000    -38.704021     30.090008      0.000000
+ H      -0.250269      0.054706     -0.000000     37.897476    -17.490847     -0.000000
+ 
+ Cohesive energy            :          -20.76951182 eV
+ Total energy               :        -1195.95922998 eV
+ Mean force (must be zero)  :      0.000000     -0.000000      0.000000
+ Mean absolute force        :     14.970713     12.799096      2.591146
+ Maximum force              :    -38.704021     30.090008      0.000000
+ RMS force                  :     27.667162
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 7
+ File name         : ./xsf/train4_newdimer_02-03_002.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.31423199       0.00000000       0.00000000 )
+   b = (        0.00000000       1.14775000       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -1.843449      2.544519     -0.000000
+ H       1.680000     -0.374000     -0.759000      0.833942     -1.262399     -9.593375
+ H       1.680000     -0.374000      0.759000      0.833942     -1.262399      9.593375
+ O      -1.251230     -0.103252     -0.000000      0.561980    -11.295696      0.000000
+ H      -1.634230      0.773748     -0.000000    -35.584022     27.366577      0.000000
+ H      -0.300230      0.052748     -0.000000     35.197606    -16.090602     -0.000000
+ 
+ Cohesive energy            :          -20.78291185 eV
+ Total energy               :        -1195.97263000 eV
+ Mean force (must be zero)  :     -0.000000     -0.000000     -0.000000
+ Mean absolute force        :     12.475824      9.970365      3.197792
+ Maximum force              :    -35.584022     27.366577      0.000000
+ RMS force                  :     25.296101
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 8
+ File name         : ./xsf/train4_newdimer_02-03_003.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.36419299       0.00000000       0.00000000 )
+   b = (        0.00000000       1.14579200       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -0.920399      1.336264      0.000000
+ H       1.680000     -0.374000     -0.759000      0.397565     -0.656007     -6.024037
+ H       1.680000     -0.374000      0.759000      0.397565     -0.656007      6.024037
+ O      -1.301191     -0.105210     -0.000000     -0.224264    -10.174758     -0.000000
+ H      -1.684191      0.771790     -0.000000    -32.944883     25.035423      0.000000
+ H      -0.350191      0.050790     -0.000000     33.294417    -14.884915      0.000000
+ 
+ Cohesive energy            :          -20.77359213 eV
+ Total energy               :        -1195.96331028 eV
+ Mean force (must be zero)  :      0.000000     -0.000000     -0.000000
+ Mean absolute force        :     11.363182      8.790562      2.008012
+ Maximum force              :    -32.944883     25.035423      0.000000
+ RMS force                  :     23.173908
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 9
+ File name         : ./xsf/train4_newdimer_02-03_004.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.41415399       0.00000000       0.00000000 )
+   b = (        0.00000000       1.14383400       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000      0.151994      0.896431     -0.000000
+ H       1.680000     -0.374000     -0.759000      0.402825     -0.450915     -6.690047
+ H       1.680000     -0.374000      0.759000      0.402825     -0.450915      6.690047
+ O      -1.351152     -0.107168     -0.000000     -5.598288    -11.496891      0.000000
+ H      -1.734152      0.769832     -0.000000    -45.187129     31.982895      0.000000
+ H      -0.400152      0.048832     -0.000000     49.827774    -20.480606      0.000000
+ 
+ Cohesive energy            :          -20.81059336 eV
+ Total energy               :        -1196.00031151 eV
+ Mean force (must be zero)  :     -0.000000      0.000000      0.000000
+ Mean absolute force        :     16.928473     10.959775      2.230016
+ Maximum force              :    -45.187129     31.982895      0.000000
+ RMS force                  :     32.201540
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 10
+ File name         : ./xsf/train4_newdimer_03-04_001.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.43913499       0.00000000       0.00000000 )
+   b = (        0.00000000       1.14285500       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -0.552394      1.094495     -0.000000
+ H       1.680000     -0.374000     -0.759000      0.358055     -0.539026     -8.751992
+ H       1.680000     -0.374000      0.759000      0.358055     -0.539026      8.751992
+ O      -1.376133     -0.108147     -0.000000     -1.399992     -8.762986      0.000000
+ H      -1.759133      0.768853     -0.000000    -29.364308     21.962796      0.000000
+ H      -0.425133      0.047853     -0.000000     30.600585    -13.216254      0.000000
+ 
+ Cohesive energy            :          -20.82146316 eV
+ Total energy               :        -1196.01118132 eV
+ Mean force (must be zero)  :     -0.000000      0.000000      0.000000
+ Mean absolute force        :     10.438898      7.685764      2.917331
+ Maximum force              :    -29.364308     21.962796      0.000000
+ RMS force                  :     21.173794
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 11
+ File name         : ./xsf/train4_newdimer_03-04_002.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.46411599       0.00000000       0.00000000 )
+   b = (        0.00000000       1.14187600       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -0.805999      1.441502      0.000000
+ H       1.680000     -0.374000     -0.759000      0.483052     -0.713956    -11.002866
+ H       1.680000     -0.374000      0.759000      0.483052     -0.713956     11.002866
+ O      -1.401114     -0.109126     -0.000000     -1.057613     -8.051424     -0.000000
+ H      -1.784114      0.767874     -0.000000    -26.489962     19.943154      0.000000
+ H      -0.450114      0.046874     -0.000000     27.387471    -11.905321      0.000000
+ 
+ Cohesive energy            :          -20.82517210 eV
+ Total energy               :        -1196.01489026 eV
+ Mean force (must be zero)  :      0.000000     -0.000000     -0.000000
+ Mean absolute force        :      9.451192      7.128219      3.667622
+ Maximum force              :    -26.489962     19.943154      0.000000
+ RMS force                  :     19.593968
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 12
+ File name         : ./xsf/train4_newdimer_03-04_003.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.48909699       0.00000000       0.00000000 )
+   b = (        0.00000000       1.14089700       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -0.991075      1.668393      0.000000
+ H       1.680000     -0.374000     -0.759000      0.572218     -0.830120    -12.245979
+ H       1.680000     -0.374000      0.759000      0.572218     -0.830120     12.245979
+ O      -1.426095     -0.110105     -0.000000     -0.800548     -7.704689     -0.000000
+ H      -1.809095      0.766895     -0.000000    -25.285672     19.075695      0.000000
+ H      -0.475095      0.045895     -0.000000     25.932860    -11.379158      0.000000
+ 
+ Cohesive energy            :          -20.82924325 eV
+ Total energy               :        -1196.01896141 eV
+ Mean force (must be zero)  :     -0.000000     -0.000000      0.000000
+ Mean absolute force        :      9.025765      6.914696      4.081993
+ Maximum force              :    -25.285672     19.075695      0.000000
+ RMS force                  :     19.021811
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 13
+ File name         : ./xsf/train4_newdimer_03-04_004.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.51407799       0.00000000       0.00000000 )
+   b = (        0.00000000       1.13991800       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -1.082984      1.739341     -0.000000
+ H       1.680000     -0.374000     -0.759000      0.597263     -0.866936    -12.433977
+ H       1.680000     -0.374000      0.759000      0.597263     -0.866936     12.433977
+ O      -1.451076     -0.111084     -0.000000     -0.494098     -7.396548      0.000000
+ H      -1.834076      0.765916     -0.000000    -24.065592     18.230870      0.000000
+ H      -0.500076      0.044916     -0.000000     24.448149    -10.839790      0.000000
+ 
+ Cohesive energy            :          -20.83257145 eV
+ Total energy               :        -1196.02228961 eV
+ Mean force (must be zero)  :      0.000000      0.000000     -0.000000
+ Mean absolute force        :      8.547558      6.656737      4.144659
+ Maximum force              :    -24.065592     18.230870      0.000000
+ RMS force                  :     18.245117
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 14
+ File name         : ./xsf/train4_newdimer_04-05_001.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.53905899       0.00000000       0.00000000 )
+   b = (        0.00000000       1.13893900       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -1.117633      1.756696      0.000000
+ H       1.680000     -0.374000     -0.759000      0.596083     -0.875422    -12.357696
+ H       1.680000     -0.374000      0.759000      0.596083     -0.875422     12.357696
+ O      -1.476057     -0.112063     -0.000000     -0.347293     -7.066982     -0.000000
+ H      -1.859057      0.764937     -0.000000    -22.811014     17.332397      0.000000
+ H      -0.525057      0.043937     -0.000000     23.083775    -10.271268     -0.000000
+ 
+ Cohesive energy            :          -20.83487402 eV
+ Total energy               :        -1196.02459217 eV
+ Mean force (must be zero)  :     -0.000000      0.000000     -0.000000
+ Mean absolute force        :      8.091980      6.363031      4.119232
+ Maximum force              :    -22.811014     17.332397      0.000000
+ RMS force                  :     17.422115
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 15
+ File name         : ./xsf/train4_newdimer_04-05_002.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.56403999       0.00000000       0.00000000 )
+   b = (        0.00000000       1.13796000       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -1.161813      1.811534      0.000000
+ H       1.680000     -0.374000     -0.759000      0.606914     -0.902196    -12.617171
+ H       1.680000     -0.374000      0.759000      0.606914     -0.902196     12.617171
+ O      -1.501038     -0.113042     -0.000000     -0.282018     -6.743481     -0.000000
+ H      -1.884038      0.763958     -0.000000    -21.773685     16.546462      0.000000
+ H      -0.550038      0.042958     -0.000000     22.003689     -9.810124     -0.000000
+ 
+ Cohesive energy            :          -20.83643236 eV
+ Total energy               :        -1196.02615051 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      7.739172      6.119332      4.205724
+ Maximum force              :    -21.773685     16.546462      0.000000
+ RMS force                  :     16.828625
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 16
+ File name         : ./xsf/train4_newdimer_04-05_003.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.58902099       0.00000000       0.00000000 )
+   b = (        0.00000000       1.13698100       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -1.250588      1.943349      0.000000
+ H       1.680000     -0.374000     -0.759000      0.644711     -0.967319    -13.327633
+ H       1.680000     -0.374000      0.759000      0.644711     -0.967319     13.327633
+ O      -1.526019     -0.114021     -0.000000     -0.215879     -6.437144     -0.000000
+ H      -1.909019      0.762979     -0.000000    -21.064033     15.950664      0.000000
+ H      -0.575019      0.041979     -0.000000     21.241079     -9.522231     -0.000000
+ 
+ Cohesive energy            :          -20.83756517 eV
+ Total energy               :        -1196.02728333 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      7.510167      5.964671      4.442544
+ Maximum force              :    -21.064033     15.950664      0.000000
+ RMS force                  :     16.556730
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 17
+ File name         : ./xsf/train4_newdimer_04-05_004.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.61400198       0.00000000       0.00000000 )
+   b = (        0.00000000       1.13600200       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -1.395978      2.162733      0.000000
+ H       1.680000     -0.374000     -0.759000      0.711225     -1.075873    -14.348214
+ H       1.680000     -0.374000      0.759000      0.711225     -1.075873     14.348214
+ O      -1.551000     -0.115000     -0.000000     -0.112856     -6.131041     -0.000000
+ H      -1.934000      0.762000     -0.000000    -20.625697     15.506512      0.000000
+ H      -0.600000      0.041000     -0.000000     20.712082     -9.386457     -0.000000
+ 
+ Cohesive energy            :          -20.83839523 eV
+ Total energy               :        -1196.02811339 eV
+ Mean force (must be zero)  :      0.000000      0.000000     -0.000000
+ Mean absolute force        :      7.378177      5.889748      4.782738
+ Maximum force              :    -20.625697     15.506512      0.000000
+ RMS force                  :     16.544208
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 18
+ File name         : ./xsf/train4_newdimer_05-06_001.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.63898298       0.00000000       0.00000000 )
+   b = (        0.00000000       1.13502300       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -1.604118      2.472357     -0.000000
+ H       1.680000     -0.374000     -0.759000      0.805995     -1.228778    -15.527082
+ H       1.680000     -0.374000      0.759000      0.805995     -1.228778     15.527082
+ O      -1.575981     -0.115979     -0.000000      0.040164     -5.796597      0.000000
+ H      -1.958981      0.761021     -0.000000    -20.364148     15.144936      0.000000
+ H      -0.624981      0.040021     -0.000000     20.316114     -9.363139      0.000000
+ 
+ Cohesive energy            :          -20.83886104 eV
+ Total energy               :        -1196.02857920 eV
+ Mean force (must be zero)  :     -0.000000      0.000000     -0.000000
+ Mean absolute force        :      7.322756      5.872431      5.175694
+ Maximum force              :    -20.364148     15.144936      0.000000
+ RMS force                  :     16.699641
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 19
+ File name         : ./xsf/train4_newdimer_05-06_002.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.66396398       0.00000000       0.00000000 )
+   b = (        0.00000000       1.13404400       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -1.877817      2.876772     -0.000000
+ H       1.680000     -0.374000     -0.759000      0.928516     -1.428268    -16.837396
+ H       1.680000     -0.374000      0.759000      0.928516     -1.428268     16.837396
+ O      -1.600962     -0.116958     -0.000000      0.250033     -5.384969      0.000000
+ H      -1.983962      0.760042     -0.000000    -20.128828     14.749508      0.000000
+ H      -0.649962      0.039042     -0.000000     19.899581     -9.384775      0.000000
+ 
+ Cohesive energy            :          -20.83873901 eV
+ Total energy               :        -1196.02845717 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      7.335548      5.875426      5.612465
+ Maximum force              :    -20.128828     14.749508      0.000000
+ RMS force                  :     16.933435
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 20
+ File name         : ./xsf/train4_newdimer_05-06_003.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.68894498       0.00000000       0.00000000 )
+   b = (        0.00000000       1.13306500       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -2.226657      3.393515     -0.000000
+ H       1.680000     -0.374000     -0.759000      1.087110     -1.683686    -18.406849
+ H       1.680000     -0.374000      0.759000      1.087110     -1.683686     18.406849
+ O      -1.625943     -0.117937     -0.000000      0.514621     -4.888121      0.000000
+ H      -2.008943      0.759063     -0.000000    -19.891857     14.298600      0.000000
+ H      -0.674943      0.038063     -0.000000     19.429672     -9.436622      0.000000
+ 
+ Cohesive energy            :          -20.83784596 eV
+ Total energy               :        -1196.02756412 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      7.372838      5.897372      6.135616
+ Maximum force              :    -19.891857     14.298600      0.000000
+ RMS force                  :     17.286738
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 21
+ File name         : ./xsf/train4_newdimer_05-06_004.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.71392598       0.00000000       0.00000000 )
+   b = (        0.00000000       1.13208600       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -2.651651      4.024084     -0.000000
+ H       1.680000     -0.374000     -0.759000      1.284869     -1.996156    -20.308734
+ H       1.680000     -0.374000      0.759000      1.284869     -1.996156     20.308734
+ O      -1.650924     -0.118916     -0.000000      0.836517     -4.297392      0.000000
+ H      -2.033924      0.758084     -0.000000    -19.648331     13.783982      0.000000
+ H      -0.699924      0.037084     -0.000000     18.893728     -9.518362      0.000000
+ 
+ Cohesive energy            :          -20.83618856 eV
+ Total energy               :        -1196.02590671 eV
+ Mean force (must be zero)  :      0.000000     -0.000000      0.000000
+ Mean absolute force        :      7.433327      5.936022      6.769578
+ Maximum force              :    -19.648331     13.783982      0.000000
+ RMS force                  :     17.805334
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 22
+ File name         : ./xsf/train4_newdimer_06-07_001.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.73890698       0.00000000       0.00000000 )
+   b = (        0.00000000       1.13110700       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -3.144064      4.755315      0.000000
+ H       1.680000     -0.374000     -0.759000      1.518776     -2.359351    -22.548525
+ H       1.680000     -0.374000      0.759000      1.518776     -2.359351     22.548525
+ O      -1.675905     -0.119895     -0.000000      1.219187     -3.607205      0.000000
+ H      -2.058905      0.757105     -0.000000    -19.402173     13.204165      0.000000
+ H      -0.724905      0.036105     -0.000000     18.289498     -9.633573     -0.000000
+ 
+ Cohesive energy            :          -20.83385628 eV
+ Total energy               :        -1196.02357443 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      7.515412      5.986493      7.516175
+ Maximum force              :    -19.402173     13.204165      0.000000
+ RMS force                  :     18.519002
+ The maximum force is acting on atom 5.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 23
+ File name         : ./xsf/train4_newdimer_06-07_002.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.76388798       0.00000000       0.00000000 )
+   b = (        0.00000000       1.13012800       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000      0.000000     -3.684557      5.558058     -0.000000
+ H       1.680000     -0.374000     -0.759000      1.779974     -2.758871    -25.059614
+ H       1.680000     -0.374000      0.759000      1.779974     -2.758871     25.059614
+ O      -1.700886     -0.120874      0.000000      1.662891     -2.817448      0.000000
+ H      -2.083886      0.756126      0.000000    -19.164403     12.565015      0.000000
+ H      -0.749886      0.035126      0.000000     17.626119     -9.787883      0.000000
+ 
+ Cohesive energy            :          -20.83099280 eV
+ Total energy               :        -1196.02071095 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      7.616320      6.041024      8.353205
+ Maximum force              :      1.779974     -2.758871     25.059614
+ RMS force                  :     19.426510
+ The maximum force is acting on atom 3.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 24
+ File name         : ./xsf/train4_newdimer_06-07_003.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.78886898       0.00000000       0.00000000 )
+   b = (        0.00000000       1.12914900       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000      0.000000     -4.245740      6.390999     -0.000000
+ H       1.680000     -0.374000     -0.759000      2.054979     -3.174148    -27.732394
+ H       1.680000     -0.374000      0.759000      2.054979     -3.174148     27.732394
+ O      -1.725867     -0.121853      0.000000      2.163085     -1.935105      0.000000
+ H      -2.108867      0.755147      0.000000    -18.949070     11.878532      0.000000
+ H      -0.774867      0.034147      0.000000     16.921767     -9.986130      0.000000
+ 
+ Cohesive energy            :          -20.82776708 eV
+ Total energy               :        -1196.01748524 eV
+ Mean force (must be zero)  :      0.000000      0.000000     -0.000000
+ Mean absolute force        :      7.731603      6.089844      9.244131
+ Maximum force              :      2.054979     -3.174148     27.732394
+ RMS force                  :     20.495114
+ The maximum force is acting on atom 3.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 25
+ File name         : ./xsf/train4_newdimer_06-07_004.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.81384998       0.00000000       0.00000000 )
+   b = (        0.00000000       1.12817000       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -4.797677      7.208883      0.000000
+ H       1.680000     -0.374000     -0.759000      2.328463     -3.582557    -30.452213
+ H       1.680000     -0.374000      0.759000      2.328463     -3.582557     30.452213
+ O      -1.750848     -0.122832     -0.000000      2.709738     -0.974961      0.000000
+ H      -2.133848      0.754168     -0.000000    -18.766302     11.159515      0.000000
+ H      -0.799848      0.033168     -0.000000     16.197315    -10.228324     -0.000000
+ 
+ Cohesive energy            :          -20.82434396 eV
+ Total energy               :        -1196.01406211 eV
+ Mean force (must be zero)  :     -0.000000      0.000000     -0.000000
+ Mean absolute force        :      7.854660      6.122799     10.150738
+ Maximum force              :      2.328463     -3.582557    -30.452213
+ RMS force                  :     21.672359
+ The maximum force is acting on atom 2.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 26
+ File name         : ./xsf/train4_newdimer_07-08_001.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.86381098       0.00000000       0.00000000 )
+   b = (        0.00000000       1.12621200       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000      0.000000     -5.774322      8.648363     -0.000000
+ H       1.680000     -0.374000     -0.759000      2.817707     -4.302900    -35.687829
+ H       1.680000     -0.374000      0.759000      2.817707     -4.302900     35.687829
+ O      -1.800809     -0.124790      0.000000      3.878097      1.083845      0.000000
+ H      -2.183809      0.752210      0.000000    -18.479333      9.673518      0.000000
+ H      -0.849809      0.031210      0.000000     14.740143    -10.799927      0.000000
+ 
+ Cohesive energy            :          -20.81740035 eV
+ Total energy               :        -1196.00711850 eV
+ Mean force (must be zero)  :     -0.000000      0.000000     -0.000000
+ Mean absolute force        :      8.084552      6.468576     11.895943
+ Maximum force              :      2.817707     -4.302900     35.687829
+ RMS force                  :     24.129772
+ The maximum force is acting on atom 3.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 27
+ File name         : ./xsf/train4_newdimer_07-08_002.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.91377198       0.00000000       0.00000000 )
+   b = (        0.00000000       1.12425400       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -6.492314      9.690198     -0.000000
+ H       1.680000     -0.374000     -0.759000      3.179063     -4.825852    -40.347784
+ H       1.680000     -0.374000      0.759000      3.179063     -4.825852     40.347784
+ O      -1.850770     -0.126748     -0.000000      5.010129      3.115410      0.000000
+ H      -2.233770      0.750252     -0.000000    -18.158988      8.183917      0.000000
+ H      -0.899770      0.029252     -0.000000     13.283048    -11.337820      0.000000
+ 
+ Cohesive energy            :          -20.81067235 eV
+ Total energy               :        -1196.00039050 eV
+ Mean force (must be zero)  :      0.000000      0.000000     -0.000000
+ Mean absolute force        :      8.217101      6.996508     13.449261
+ Maximum force              :      3.179063     -4.825852     40.347784
+ RMS force                  :     26.442535
+ The maximum force is acting on atom 3.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 28
+ File name         : ./xsf/train4_newdimer_07-08_003.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        3.96373298       0.00000000       0.00000000 )
+   b = (        0.00000000       1.12229600       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000      0.000000     -6.944704     10.324718      0.000000
+ H       1.680000     -0.374000     -0.759000      3.404644     -5.145768    -44.325101
+ H       1.680000     -0.374000      0.759000      3.404644     -5.145768     44.325101
+ O      -1.900731     -0.128706      0.000000      5.938858      4.827827      0.000000
+ H      -2.283731      0.748294      0.000000    -17.703284      6.824236      0.000000
+ H      -0.949731      0.027294      0.000000     11.899841    -11.685244      0.000000
+ 
+ Cohesive energy            :          -20.80403731 eV
+ Total energy               :        -1195.99375546 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      8.215996      7.325594     14.775034
+ Maximum force              :      3.404644     -5.145768    -44.325101
+ RMS force                  :     28.452019
+ The maximum force is acting on atom 2.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 29
+ File name         : ./xsf/train4_newdimer_07-08_004.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        4.01369398       0.00000000       0.00000000 )
+   b = (        0.00000000       1.12033800       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -7.193811     10.649821      0.000000
+ H       1.680000     -0.374000     -0.759000      3.525605     -5.311125    -47.682767
+ H       1.680000     -0.374000      0.759000      3.525605     -5.311125     47.682767
+ O      -1.950692     -0.130664     -0.000000      6.541370      5.966540      0.000000
+ H      -2.333692      0.746336     -0.000000    -17.252548      5.837709      0.000000
+ H      -0.999692      0.025336     -0.000000     10.853779    -11.831819      0.000000
+ 
+ Cohesive energy            :          -20.79717066 eV
+ Total energy               :        -1195.98688881 eV
+ Mean force (must be zero)  :     -0.000000      0.000000     -0.000000
+ Mean absolute force        :      8.148786      7.484690     15.894256
+ Maximum force              :      3.525605     -5.311125    -47.682767
+ RMS force                  :     30.170772
+ The maximum force is acting on atom 2.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 30
+ File name         : ./xsf/train4_newdimer_08-09_001.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        4.08863698       0.00000000       0.00000000 )
+   b = (        0.00000000       1.11740100       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -7.341679     10.817502      0.000000
+ H       1.680000     -0.374000     -0.759000      3.597017     -5.398446    -51.871873
+ H       1.680000     -0.374000      0.759000      3.597017     -5.398446     51.871873
+ O      -2.025635     -0.133601     -0.000000      6.800961      6.479941      0.000000
+ H      -2.408635      0.743399     -0.000000    -17.045607      5.388612      0.000000
+ H      -1.074635      0.022399     -0.000000     10.392292    -11.889162     -0.000000
+ 
+ Cohesive energy            :          -20.78611384 eV
+ Total energy               :        -1195.97583199 eV
+ Mean force (must be zero)  :      0.000000      0.000000     -0.000000
+ Mean absolute force        :      8.129095      7.562018     17.290624
+ Maximum force              :      3.597017     -5.398446    -51.871873
+ RMS force                  :     32.387366
+ The maximum force is acting on atom 2.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 31
+ File name         : ./xsf/train4_newdimer_08-09_002.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        4.16357998       0.00000000       0.00000000 )
+   b = (        0.00000000       1.11446400       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -7.359156     10.819129      0.000000
+ H       1.680000     -0.374000     -0.759000      3.609183     -5.401489    -55.395304
+ H       1.680000     -0.374000      0.759000      3.609183     -5.401489     55.395304
+ O      -2.100578     -0.136538     -0.000000      6.964244      6.774743      0.000000
+ H      -2.483578      0.740462     -0.000000    -17.351153      5.362686      0.000000
+ H      -1.149578      0.019462     -0.000000     10.527700    -12.153579     -0.000000
+ 
+ Cohesive energy            :          -20.77543482 eV
+ Total energy               :        -1195.96515298 eV
+ Mean force (must be zero)  :      0.000000     -0.000000     -0.000000
+ Mean absolute force        :      8.236770      7.652186     18.465101
+ Maximum force              :      3.609183     -5.401489    -55.395304
+ RMS force                  :     34.340587
+ The maximum force is acting on atom 2.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 32
+ File name         : ./xsf/train4_newdimer_08-09_003.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        4.23852298       0.00000000       0.00000000 )
+   b = (        0.00000000       1.11152700       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -7.289450     10.689523      0.000000
+ H       1.680000     -0.374000     -0.759000      3.576215     -5.338740    -58.364679
+ H       1.680000     -0.374000      0.759000      3.576215     -5.338740     58.364679
+ O      -2.175521     -0.139475     -0.000000      7.235515      7.156643      0.000000
+ H      -2.558521      0.737525     -0.000000    -17.846298      5.389770      0.000000
+ H      -1.224521      0.016525     -0.000000     10.747802    -12.558456     -0.000000
+ 
+ Cohesive energy            :          -20.76501427 eV
+ Total energy               :        -1195.95473243 eV
+ Mean force (must be zero)  :     -0.000000     -0.000000      0.000000
+ Mean absolute force        :      8.378582      7.745312     19.454893
+ Maximum force              :      3.576215     -5.338740    -58.364679
+ RMS force                  :     36.025909
+ The maximum force is acting on atom 2.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 33
+ File name         : ./xsf/train4_newdimer_08-09_004.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        4.31346598       0.00000000       0.00000000 )
+   b = (        0.00000000       1.10859000       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -7.048883     10.324591      0.000000
+ H       1.680000     -0.374000     -0.759000      3.465126     -5.158258    -60.665186
+ H       1.680000     -0.374000      0.759000      3.465126     -5.158258     60.665186
+ O      -2.250464     -0.142412     -0.000000      7.428818      7.360566      0.000000
+ H      -2.633464      0.734588     -0.000000    -17.859601      5.274191      0.000000
+ H      -1.299464      0.013588     -0.000000     10.549414    -12.642832     -0.000000
+ 
+ Cohesive energy            :          -20.75537207 eV
+ Total energy               :        -1195.94509023 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      8.302828      7.653116     20.221729
+ Maximum force              :      3.465126     -5.158258    -60.665186
+ RMS force                  :     37.240932
+ The maximum force is acting on atom 2.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 34
+ File name         : ./xsf/train4_newdimer_09-10_001.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        4.38840798       0.00000000       0.00000000 )
+   b = (        0.00000000       1.10565200       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -6.510472      9.523967      0.000000
+ H       1.680000     -0.374000     -0.759000      3.206112     -4.759758    -62.074293
+ H       1.680000     -0.374000      0.759000      3.206112     -4.759758     62.074293
+ O      -2.325406     -0.145350     -0.000000      7.390220      7.335120      0.000000
+ H      -2.708406      0.731650     -0.000000    -17.694397      5.198527      0.000000
+ H      -1.374406      0.010650     -0.000000     10.402425    -12.538099     -0.000000
+ 
+ Cohesive energy            :          -20.74733526 eV
+ Total energy               :        -1195.93705342 eV
+ Mean force (must be zero)  :     -0.000000     -0.000000     -0.000000
+ Mean absolute force        :      8.068290      7.352538     20.691431
+ Maximum force              :      3.206112     -4.759758    -62.074293
+ RMS force                  :     37.901950
+ The maximum force is acting on atom 2.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 35
+ File name         : ./xsf/train4_newdimer_09-10_002.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        4.46334998       0.00000000       0.00000000 )
+   b = (        0.00000000       1.10271400       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -5.449235      7.929753      0.000000
+ H       1.680000     -0.374000     -0.759000      2.675848     -3.964359    -62.268518
+ H       1.680000     -0.374000      0.759000      2.675848     -3.964359     62.268518
+ O      -2.400348     -0.148288     -0.000000      6.939566      7.157697      0.000000
+ H      -2.783348      0.728712     -0.000000    -18.247330      5.571160      0.000000
+ H      -1.449348      0.007712     -0.000000     11.405303    -12.729893     -0.000000
+ 
+ Cohesive energy            :          -20.74016348 eV
+ Total energy               :        -1195.92988164 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      7.898855      6.886203     20.756173
+ Maximum force              :      2.675848     -3.964359    -62.268518
+ RMS force                  :     37.966188
+ The maximum force is acting on atom 2.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 36
+ File name         : ./xsf/train4_newdimer_09-10_003.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        4.53829198       0.00000000       0.00000000 )
+   b = (        0.00000000       1.09977600       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     -3.460019      4.935687      0.000000
+ H       1.680000     -0.374000     -0.759000      1.669621     -2.469173    -60.765626
+ H       1.680000     -0.374000      0.759000      1.669621     -2.469173     60.765626
+ O      -2.475290     -0.151226     -0.000000      5.828921      6.782668      0.000000
+ H      -2.858290      0.725774     -0.000000    -19.997678      6.654663      0.000000
+ H      -1.524290      0.004774     -0.000000     14.289533    -13.434671      0.000000
+ 
+ Cohesive energy            :          -20.73211151 eV
+ Total energy               :        -1195.92182967 eV
+ Mean force (must be zero)  :     -0.000000     -0.000000      0.000000
+ Mean absolute force        :      7.819232      6.124339     20.255209
+ Maximum force              :      1.669621     -2.469173    -60.765626
+ RMS force                  :     37.300308
+ The maximum force is acting on atom 2.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 37
+ File name         : ./xsf/train4_newdimer_09-10_004.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        4.61323398       0.00000000       0.00000000 )
+   b = (        0.00000000       1.09683800       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000      0.017541     -0.275510      0.000000
+ H       1.680000     -0.374000     -0.759000     -0.091373      0.134699    -56.985179
+ H       1.680000     -0.374000      0.759000     -0.091373      0.134699     56.985179
+ O      -2.550232     -0.154164     -0.000000      4.001479      6.176881      0.000000
+ H      -2.933232      0.722836     -0.000000    -22.971528      8.480126      0.000000
+ H      -1.599232      0.001836     -0.000000     19.135253    -14.650895      0.000000
+ 
+ Cohesive energy            :          -20.72159498 eV
+ Total energy               :        -1195.91131313 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      7.718091      4.975468     18.995060
+ Maximum force              :     -0.091373      0.134699    -56.985179
+ RMS force                  :     35.891796
+ The maximum force is acting on atom 2.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 38
+ File name         : ./xsf/train4_newdimer_10-11_001.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        4.73813798       0.00000000       0.00000000 )
+   b = (        0.00000000       1.09194300       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000      0.000000      9.805582    -14.826495      0.000000
+ H       1.680000     -0.374000     -0.759000     -5.025688      7.408689    -46.032832
+ H       1.680000     -0.374000      0.759000     -5.025688      7.408689     46.032832
+ O      -2.675136     -0.159059      0.000000     -0.446798      4.702934      0.000000
+ H      -3.058136      0.717941      0.000000    -30.231606     12.934631      0.000000
+ H      -1.724136     -0.003059      0.000000     30.924198    -17.628448      0.000000
+ 
+ Cohesive energy            :          -20.69525700 eV
+ Total energy               :        -1195.88497515 eV
+ Mean force (must be zero)  :      0.000000     -0.000000      0.000000
+ Mean absolute force        :     13.576593     10.818314     15.344277
+ Maximum force              :     -5.025688      7.408689    -46.032832
+ RMS force                  :     34.363135
+ The maximum force is acting on atom 2.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 39
+ File name         : ./xsf/train4_newdimer_10-11_002.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        4.86304198       0.00000000       0.00000000 )
+   b = (        0.00000000       1.08704800       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     19.617208    -29.228188      0.000000
+ H       1.680000     -0.374000     -0.759000     -9.910899     14.610291    -35.163987
+ H       1.680000     -0.374000      0.759000     -9.910899     14.610291     35.163987
+ O      -2.800040     -0.163954     -0.000000     -5.060940      3.161243      0.000000
+ H      -3.183040      0.713046     -0.000000    -37.814831     17.592687      0.000000
+ H      -1.849040     -0.007954     -0.000000     43.080361    -20.746325      0.000000
+ 
+ Cohesive energy            :          -20.66541824 eV
+ Total energy               :        -1195.85513639 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :     20.899189     16.658171     11.721329
+ Maximum force              :     43.080361    -20.746325      0.000000
+ RMS force                  :     37.409680
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 40
+ File name         : ./xsf/train4_newdimer_10-11_003.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        4.98794598       0.00000000       0.00000000 )
+   b = (        0.00000000       1.08215300       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     23.195130    -34.264282      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.621004     17.131268    -31.353769
+ H       1.680000     -0.374000      0.759000    -11.621004     17.131268     31.353769
+ O      -2.924944     -0.168849     -0.000000     -7.473327      2.347378      0.000000
+ H      -3.307944      0.708151     -0.000000    -41.834931     20.063561      0.000000
+ H      -1.973944     -0.012849     -0.000000     49.355136    -22.409192      0.000000
+ 
+ Cohesive energy            :          -20.64907880 eV
+ Total energy               :        -1195.83879695 eV
+ Mean force (must be zero)  :     -0.000000      0.000000     -0.000000
+ Mean absolute force        :     24.183422     18.891158     10.451256
+ Maximum force              :     49.355136    -22.409192      0.000000
+ RMS force                  :     40.181669
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 41
+ File name         : ./xsf/train4_newdimer_10-11_004.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        5.11284998       0.00000000       0.00000000 )
+   b = (        0.00000000       1.07725800       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O      -3.049848     -0.173744     -0.000000     -7.586679      2.308971      0.000000
+ H      -3.432848      0.703256     -0.000000    -42.025295     20.180573      0.000000
+ H      -2.098848     -0.017744     -0.000000     49.611974    -22.489544      0.000000
+ 
+ Cohesive energy            :          -20.64830455 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :      0.000000      0.000000     -0.000000
+ Mean absolute force        :     24.324282     18.975768     10.407083
+ Maximum force              :     49.611974    -22.489544      0.000000
+ RMS force                  :     40.312250
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 42
+ File name         : ./xsf/train4_newdimer_11-12_001.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        5.23775398       0.00000000       0.00000000 )
+   b = (        0.00000000       1.07236300       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O      -3.174752     -0.178639     -0.000000     -7.586679      2.308971      0.000000
+ H      -3.557752      0.698361     -0.000000    -42.025296     20.180573      0.000000
+ H      -2.223752     -0.022639     -0.000000     49.611975    -22.489544      0.000000
+ 
+ Cohesive energy            :          -20.64830455 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :     -0.000000     -0.000000      0.000000
+ Mean absolute force        :     24.324283     18.975768     10.407083
+ Maximum force              :     49.611975    -22.489544      0.000000
+ RMS force                  :     40.312251
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 43
+ File name         : ./xsf/train4_newdimer_11-12_002.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        5.36265798       0.00000000       0.00000000 )
+   b = (        0.00000000       1.06746800       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O      -3.299656     -0.183534     -0.000000     -7.586680      2.308971      0.000000
+ H      -3.682656      0.693466     -0.000000    -42.025296     20.180573      0.000000
+ H      -2.348656     -0.027534     -0.000000     49.611976    -22.489545      0.000000
+ 
+ Cohesive energy            :          -20.64830454 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :      0.000000     -0.000000     -0.000000
+ Mean absolute force        :     24.324283     18.975768     10.407083
+ Maximum force              :     49.611976    -22.489545      0.000000
+ RMS force                  :     40.312251
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 44
+ File name         : ./xsf/train4_newdimer_11-12_003.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        5.48756198       0.00000000       0.00000000 )
+   b = (        0.00000000       1.06257300       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000      0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O      -3.424560     -0.188429      0.000000     -7.586681      2.308972      0.000000
+ H      -3.807560      0.688571      0.000000    -42.025297     20.180573      0.000000
+ H      -2.473560     -0.032429      0.000000     49.611977    -22.489545      0.000000
+ 
+ Cohesive energy            :          -20.64830454 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :      0.000000     -0.000000     -0.000000
+ Mean absolute force        :     24.324283     18.975769     10.407083
+ Maximum force              :     49.611977    -22.489545      0.000000
+ RMS force                  :     40.312251
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 45
+ File name         : ./xsf/train4_newdimer_11-12_004.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        5.61246598       0.00000000       0.00000000 )
+   b = (        0.00000000       1.05767800       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O      -3.549464     -0.193324     -0.000000     -7.586681      2.308972      0.000000
+ H      -3.932464      0.683676     -0.000000    -42.025297     20.180573      0.000000
+ H      -2.598464     -0.037324     -0.000000     49.611979    -22.489545      0.000000
+ 
+ Cohesive energy            :          -20.64830454 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :     24.324284     18.975769     10.407083
+ Maximum force              :     49.611979    -22.489545      0.000000
+ RMS force                  :     40.312252
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 46
+ File name         : ./xsf/train4_newdimer_12-13_001.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        5.86227498       0.00000000       0.00000000 )
+   b = (        0.00000000       1.04788700       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O      -3.799273     -0.203115     -0.000000     -7.586681      2.308972      0.000000
+ H      -4.182273      0.673885     -0.000000    -42.025297     20.180573      0.000000
+ H      -2.848273     -0.047115     -0.000000     49.611978    -22.489545      0.000000
+ 
+ Cohesive energy            :          -20.64830454 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :      0.000000      0.000000     -0.000000
+ Mean absolute force        :     24.324284     18.975769     10.407083
+ Maximum force              :     49.611978    -22.489545      0.000000
+ RMS force                  :     40.312252
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 47
+ File name         : ./xsf/train4_newdimer_12-13_002.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        6.11208397       0.00000000       0.00000000 )
+   b = (        0.00000000       1.03809600       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O      -4.049082     -0.212906     -0.000000     -7.586681      2.308972      0.000000
+ H      -4.432082      0.664094     -0.000000    -42.025297     20.180573      0.000000
+ H      -3.098082     -0.056906     -0.000000     49.611978    -22.489545      0.000000
+ 
+ Cohesive energy            :          -20.64830454 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :     -0.000000     -0.000000     -0.000000
+ Mean absolute force        :     24.324284     18.975769     10.407083
+ Maximum force              :     49.611978    -22.489545      0.000000
+ RMS force                  :     40.312252
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 48
+ File name         : ./xsf/train4_newdimer_12-13_003.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        6.36189297       0.00000000       0.00000000 )
+   b = (        0.00000000       1.02830500       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O      -4.298891     -0.222697     -0.000000     -7.586681      2.308972      0.000000
+ H      -4.681891      0.654303     -0.000000    -42.025297     20.180573      0.000000
+ H      -3.347891     -0.066697     -0.000000     49.611978    -22.489545      0.000000
+ 
+ Cohesive energy            :          -20.64830454 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :      0.000000     -0.000000     -0.000000
+ Mean absolute force        :     24.324283     18.975769     10.407083
+ Maximum force              :     49.611978    -22.489545      0.000000
+ RMS force                  :     40.312251
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 49
+ File name         : ./xsf/train4_newdimer_12-13_004.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        6.61170197       0.00000000       0.00000000 )
+   b = (        0.00000000       1.01851400       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000      0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O      -4.548700     -0.232488      0.000000     -7.586680      2.308972      0.000000
+ H      -4.931700      0.644512      0.000000    -42.025297     20.180573      0.000000
+ H      -3.597700     -0.076488      0.000000     49.611977    -22.489545      0.000000
+ 
+ Cohesive energy            :          -20.64830454 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :     -0.000000      0.000000      0.000000
+ Mean absolute force        :     24.324283     18.975769     10.407083
+ Maximum force              :     49.611977    -22.489545      0.000000
+ RMS force                  :     40.312251
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 50
+ File name         : ./xsf/train4_newdimer_13-14_001.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        7.11131797       0.00000000       0.00000000 )
+   b = (        0.00000000       0.99893300       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O      -5.048316     -0.252069     -0.000000     -7.586680      2.308972      0.000000
+ H      -5.431316      0.624931     -0.000000    -42.025296     20.180573      0.000000
+ H      -4.097316     -0.096069     -0.000000     49.611977    -22.489545      0.000000
+ 
+ Cohesive energy            :          -20.64830454 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :     -0.000000      0.000000     -0.000000
+ Mean absolute force        :     24.324283     18.975769     10.407083
+ Maximum force              :     49.611977    -22.489545      0.000000
+ RMS force                  :     40.312251
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 51
+ File name         : ./xsf/train4_newdimer_13-14_002.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        7.61093397       0.00000000       0.00000000 )
+   b = (        0.00000000       0.97935200       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O      -5.547932     -0.271650     -0.000000     -7.586680      2.308972      0.000000
+ H      -5.930932      0.605350     -0.000000    -42.025296     20.180573      0.000000
+ H      -4.596932     -0.115650     -0.000000     49.611976    -22.489545      0.000000
+ 
+ Cohesive energy            :          -20.64830455 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :      0.000000     -0.000000     -0.000000
+ Mean absolute force        :     24.324283     18.975768     10.407083
+ Maximum force              :     49.611976    -22.489545      0.000000
+ RMS force                  :     40.312251
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 52
+ File name         : ./xsf/train4_newdimer_13-14_003.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        8.11054997       0.00000000       0.00000000 )
+   b = (        0.00000000       0.95977100       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     23.360873    -34.437761     -0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O      -6.047548     -0.291231     -0.000000     -7.586679      2.308972      0.000000
+ H      -6.430548      0.585769     -0.000000    -42.025295     20.180573      0.000000
+ H      -5.096548     -0.135231     -0.000000     49.611975    -22.489544      0.000000
+ 
+ Cohesive energy            :          -20.64830455 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :     -0.000000      0.000000      0.000000
+ Mean absolute force        :     24.324282     18.975768     10.407083
+ Maximum force              :     49.611975    -22.489544      0.000000
+ RMS force                  :     40.312250
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 53
+ File name         : ./xsf/train4_newdimer_13-14_004.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        8.61016596       0.00000000       0.00000000 )
+   b = (        0.00000000       0.94019000       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000      0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O      -6.547164     -0.310812      0.000000     -7.586679      2.308972      0.000000
+ H      -6.930164      0.566188      0.000000    -42.025295     20.180573      0.000000
+ H      -5.596164     -0.154812      0.000000     49.611974    -22.489544      0.000000
+ 
+ Cohesive energy            :          -20.64830455 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :     -0.000000     -0.000000     -0.000000
+ Mean absolute force        :     24.324282     18.975768     10.407083
+ Maximum force              :     49.611974    -22.489544      0.000000
+ RMS force                  :     40.312250
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 54
+ File name         : ./xsf/train4_newdimer_14-15_001.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (        9.85920696       0.00000000       0.00000000 )
+   b = (        0.00000000       0.89123700       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000      0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O      -7.796205     -0.359765      0.000000     -7.586679      2.308972      0.000000
+ H      -8.179205      0.517235      0.000000    -42.025296     20.180573      0.000000
+ H      -6.845205     -0.203765      0.000000     49.611975    -22.489544      0.000000
+ 
+ Cohesive energy            :          -20.64830455 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :      0.000000     -0.000000      0.000000
+ Mean absolute force        :     24.324282     18.975768     10.407083
+ Maximum force              :     49.611975    -22.489544      0.000000
+ RMS force                  :     40.312250
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 55
+ File name         : ./xsf/train4_newdimer_14-15_002.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (       11.10824795       0.00000000       0.00000000 )
+   b = (        0.00000000       0.87700200       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000     -0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O      -9.045246     -0.408718     -0.000000     -7.586680      2.308971      0.000000
+ H      -9.428246      0.468282     -0.000000    -42.025296     20.180573      0.000000
+ H      -8.094246     -0.252718     -0.000000     49.611976    -22.489545      0.000000
+ 
+ Cohesive energy            :          -20.64830455 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :      0.000000     -0.000000      0.000000
+ Mean absolute force        :     24.324283     18.975768     10.407083
+ Maximum force              :     49.611976    -22.489545      0.000000
+ RMS force                  :     40.312251
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 56
+ File name         : ./xsf/train4_newdimer_14-15_003.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (       12.35728895       0.00000000       0.00000000 )
+   b = (        0.00000000       0.87700200       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000      0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O     -10.294287     -0.457671      0.000000     -7.586680      2.308971      0.000000
+ H     -10.677287      0.419329      0.000000    -42.025297     20.180574      0.000000
+ H      -9.343287     -0.301671      0.000000     49.611977    -22.489545      0.000000
+ 
+ Cohesive energy            :          -20.64830454 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :     -0.000000      0.000000     -0.000000
+ Mean absolute force        :     24.324283     18.975769     10.407083
+ Maximum force              :     49.611977    -22.489545      0.000000
+ RMS force                  :     40.312251
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Structure number  : 57
+ File name         : ./xsf/train4_newdimer_14-15_004.xsf
+ Number of atoms   : 6
+ Number of species : 2
+ 
+ Lattice vectors (Angstrom):
+ 
+   a = (       13.60632994       0.00000000       0.00000000 )
+   b = (        0.00000000       0.87700200       0.00000000 )
+   c = (        0.00000000       0.00000000       1.51800199 )
+ 
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
+ 
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ O       1.351000      0.111000      0.000000     23.360873    -34.437761      0.000000
+ H       1.680000     -0.374000     -0.759000    -11.680436     17.218880    -31.221250
+ H       1.680000     -0.374000      0.759000    -11.680436     17.218880     31.221250
+ O     -11.543328     -0.506624      0.000000     -7.586681      2.308971      0.000000
+ H     -11.926328      0.370376      0.000000    -42.025297     20.180574      0.000000
+ H     -10.592328     -0.350624      0.000000     49.611978    -22.489545      0.000000
+ 
+ Cohesive energy            :          -20.64830454 eV
+ Total energy               :        -1195.83802270 eV
+ Mean force (must be zero)  :      0.000000     -0.000000      0.000000
+ Mean absolute force        :     24.324284     18.975769     10.407083
+ Maximum force              :     49.611978    -22.489545      0.000000
+ RMS force                  :     40.312252
+ The maximum force is acting on atom 6.
+ All forces are given in eV/Angstrom.
+ 
+                                                                       
+                          2021-02-08  16:48:48                         
+                                                                       
+ ======================================================================
+                      Atomic Energy Network done.                      
+ ======================================================================
