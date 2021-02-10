@@ -6,8 +6,13 @@ This is a repository contaning files and directories used to learn how to use [a
 
 First of all, generate.x, train.x, and predict.x are compiled successfully and path to these programs is properly set.
 These executable has different names, depending on the environment and platform they are compiled.
+In the working directory, get the data files by typing:
 
-In the subdirectories, you can find the following directories:
+```
+git clone https://github.com/ikuhamada/aenet-learn.git
+```
+
+Go to ``aenet-learn``, you can find the following subdirectories:
 
 ```Bash
 01-generate/  02-train/  03-test/  04-predict/	xsf/
