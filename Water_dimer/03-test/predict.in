@@ -1,0 +1,30 @@
+TYPES
+2
+H
+O
+
+NETWORKS
+ H  H.10t-10t.ann 2 10:tanh 10:tanh
+ O  O.10t-10t.ann 2 10:tanh 10:tanh
+
+FORCES
+
+FILES
+17
+../xsf/train4_newdimer_01.xsf
+../xsf/train4_newdimer_02.xsf
+../xsf/train4_newdimer_03.xsf
+../xsf/train4_newdimer_04.xsf
+../xsf/train4_newdimer_05.xsf
+../xsf/train4_newdimer_06.xsf
+../xsf/train4_newdimer_07.xsf
+../xsf/train4_newdimer_08.xsf
+../xsf/train4_newdimer_09.xsf
+../xsf/train4_newdimer_10.xsf
+../xsf/train4_newdimer_11.xsf
+../xsf/train4_newdimer_12.xsf
+../xsf/train4_newdimer_13.xsf
+../xsf/train4_newdimer_14.xsf
+../xsf/train4_newdimer_15.xsf
+../xsf/train4_left.xsf
+../xsf/train4_right.xsf

@@ -1,0 +1,43 @@
+DESCR
+  Structural fingerprint setup for H in water
+  Reference: T. Morawietz, A. Singraber, C. Dellago, and J. Behler
+  Proc. Natl. Acad. Sci. USA 113, 8368-8373 (2016).
+END DESCR
+
+ATOM H
+
+ENV  2
+H
+O
+
+RMIN 0.6
+
+SYMMFUNC type=Behler2011
+27
+G=2 type2=H   eta=0.003571  Rs=0.0000  Rc=3.3603
+G=2 type2=O   eta=0.003571  Rs=0.0000  Rc=3.3603
+G=2 type2=H   eta=0.035711  Rs=0.0000  Rc=3.3603
+G=2 type2=O   eta=0.035711  Rs=0.0000  Rc=3.3603
+G=2 type2=H   eta=0.107132  Rs=0.0000  Rc=3.3603
+G=2 type2=O   eta=0.107132  Rs=0.0000  Rc=3.3603
+G=2 type2=H   eta=0.214264  Rs=0.0000  Rc=3.3603
+G=2 type2=O   eta=0.214264  Rs=0.0000  Rc=3.3603
+G=2 type2=O   eta=0.535660  Rs=0.4763  Rc=3.3603
+G=2 type2=H   eta=0.535660  Rs=1.0054  Rc=3.3603
+G=2 type2=O   eta=1.071319  Rs=0.4763  Rc=3.3603
+G=2 type2=H   eta=1.071319  Rs=1.0054  Rc=3.3603
+G=2 type2=O   eta=2.142639  Rs=0.4763  Rc=3.3603
+G=2 type2=H   eta=2.142639  Rs=1.0054  Rc=3.3603
+G=2 type2=O   eta=5.356597  Rs=0.4763  Rc=3.3603
+G=2 type2=H   eta=5.356597  Rs=1.0054  Rc=3.3603
+G=4 type2=O  type3=O   eta=0.003571 lambda= -1.0  zeta=  4.0  Rc=3.3603
+G=4 type2=O  type3=O   eta=0.003571 lambda=  1.0  zeta=  4.0  Rc=3.3603
+G=4 type2=H  type3=O   eta=0.035711 lambda= -1.0  zeta=  4.0  Rc=3.3603
+G=4 type2=H  type3=O   eta=0.035711 lambda=  1.0  zeta=  4.0  Rc=3.3603
+G=4 type2=H  type3=O   eta=0.107132 lambda= -1.0  zeta=  1.0  Rc=3.3603
+G=4 type2=O  type3=O   eta=0.107132 lambda= -1.0  zeta=  1.0  Rc=3.3603
+G=4 type2=H  type3=O   eta=0.107132 lambda=  1.0  zeta=  1.0  Rc=3.3603
+G=4 type2=O  type3=O   eta=0.107132 lambda=  1.0  zeta=  1.0  Rc=3.3603
+G=4 type2=H  type3=O   eta=0.249975 lambda= -1.0  zeta=  1.0  Rc=3.3603
+G=4 type2=H  type3=O   eta=0.249975 lambda=  1.0  zeta=  1.0  Rc=3.3603
+G=4 type2=H  type3=O   eta=0.714213 lambda=  1.0  zeta=  1.0  Rc=3.3603
