@@ -1,17 +1,22 @@
  program main
 !
-! Calculate the center of mass distance
+! Calculate the center of mass distance of a water dimer
 !
  implicit none
  integer :: ii, jj, kk
+ integer :: ios
  integer :: len
  real(kind=8) :: dist, dist_oo
  real(kind=8) :: car(3,6), com(3,2)
  character(len=2) :: c2
  character(len=256) :: str
- read(*,'(a)')str
- read(*,'(a)')str
- read(*,'(a)')str
+ do 
+   read(*,'(a)',iostat=ios)str
+   if(ios/=0)stop
+   str=adjustl(str)
+   if(str(1:1) == '#')cycle
+   if(trim(str) == 'ATOMS')exit
+ endif
  do ii = 1, 3
   read(*,'(a)')str 
   str = adjustl(str)
