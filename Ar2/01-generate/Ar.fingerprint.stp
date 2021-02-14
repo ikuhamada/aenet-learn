@@ -1,0 +1,14 @@
+DESCR
+N. Artrith and A. Urban, Comput. Mater. Sci. 114 (2016) 135-150.
+N. Artrith, A. Urban, and G. Ceder, Phys. Rev. B 96 (2017) 014112.
+END DESCR
+
+ATOM Ar
+
+ENV 1
+Ar
+
+RMIN 1.0D0
+
+BASIS type=Chebyshev
+radial_Rc = 6.0 radial_N = 10

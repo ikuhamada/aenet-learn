@@ -1,0 +1,1325 @@
+ ======================================================================
+                  Atomic Energy Network Interpolation                  
+ ======================================================================
+                                                                       
+                          2021-02-14  16:27:33                         
+                                                                       
+
+ Copyright (C) 2015-2018 Nongnuch Artrith and Alexander Urban
+
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ Mozilla Public License, v. 2.0, for more details.
+
+ Atomic species : Ar
+ File name      : Ar.5t-5t.ann
+
+ ----------------------------------------------------------------------
+                           Training set info.                          
+ ----------------------------------------------------------------------
+
+ Training set file                   : Ar2.train.scaled
+ Number of structures in the data set: 52
+
+ Atomic species in training set      : 1
+   Species : Ar
+
+ Average energy (eV/atom) : -0.757381
+ Minimum energy (eV/atom) : -1.000000
+ Maximum energy (eV/atom) : 1.000000
+
+ The input and output values have been normalized to [-1.0, 1.0].
+ Structures outside of this interval will not be used for training.
+   Energy scaling factor: 35.749281
+   Atomic energy shift  : 0.022197
+
+ Number of layers :   4
+
+ Number of nodes (without bias) 
+ and activation type per layer :
+
+       1 :    12
+       2 :     5  hyperbolic tangent (tanh)
+       3 :     5  hyperbolic tangent (tanh)
+       4 :     1  linear function (linear)
+
+ Required memory (words) :       5619 (     43.90 KB)
+
+ Total number of weights (incl. bias) :      101
+
+ Structural fingerprint (SF) set-up for Ar
+
+ N. Artrith and A. Urban, Comput. Mater. Sci. 114 (2016) 135-150.
+ N. Artrith, A. Urban, and G. Ceder, Phys. Rev. B 96 (2017) 014112.
+
+ environment types: Ar 
+ minimal distance : 1.00 Angstrom
+ maximal cut-off  : 6.00 Angstrom
+ size of basis    : 12
+ evaluations      : 104
+
+ Basis function type Chebyshev
+ [N. Artrith and A. Urban (2016)]
+
+ Radial Rc     : 6.00
+ Angular Rc    : 0.00
+ Radial order  : 10
+ Angular order : 0
+
+ ----------------------------------------------------------------------
+                           Energy evaluation                           
+ ----------------------------------------------------------------------
+
+ Structure number  : 1
+ File name         : ../xsf/ar2_3.00.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.00000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      3.000000
+
+ Cohesive energy            :            0.10033988 eV
+ Total energy               :        -2574.54375608 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 2
+ File name         : ../xsf/ar2_3.05.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.05000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      3.050000
+
+ Cohesive energy            :            0.07895027 eV
+ Total energy               :        -2574.56514569 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 3
+ File name         : ../xsf/ar2_3.10.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.10000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      3.100000
+
+ Cohesive energy            :            0.06116635 eV
+ Total energy               :        -2574.58292961 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 4
+ File name         : ../xsf/ar2_3.15.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.15000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      3.150000
+
+ Cohesive energy            :            0.04655539 eV
+ Total energy               :        -2574.59754057 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 5
+ File name         : ../xsf/ar2_3.20.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.20000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      3.200000
+
+ Cohesive energy            :            0.03451533 eV
+ Total energy               :        -2574.60958063 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 6
+ File name         : ../xsf/ar2_3.25.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.25000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar      0.000000      0.000000      0.000000
+ Ar      0.000000      0.000000      3.250000
+
+ Cohesive energy            :            0.02465023 eV
+ Total energy               :        -2574.61944573 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 7
+ File name         : ../xsf/ar2_3.30.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.30000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      3.300000
+
+ Cohesive energy            :            0.01662460 eV
+ Total energy               :        -2574.62747136 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 8
+ File name         : ../xsf/ar2_3.35.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.35000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000
+ Ar     -0.000000     -0.000000      3.350000
+
+ Cohesive energy            :            0.01011586 eV
+ Total energy               :        -2574.63398010 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 9
+ File name         : ../xsf/ar2_3.40.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.40000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      3.400000
+
+ Cohesive energy            :            0.00485660 eV
+ Total energy               :        -2574.63923935 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 10
+ File name         : ../xsf/ar2_3.45.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.45000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      3.450000
+
+ Cohesive energy            :            0.00064535 eV
+ Total energy               :        -2574.64345061 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 11
+ File name         : ../xsf/ar2_3.50.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.50000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      3.500000
+
+ Cohesive energy            :           -0.00268526 eV
+ Total energy               :        -2574.64678121 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 12
+ File name         : ../xsf/ar2_3.55.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.55000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000
+ Ar     -0.000000     -0.000000      3.550000
+
+ Cohesive energy            :           -0.00528611 eV
+ Total energy               :        -2574.64938207 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 13
+ File name         : ../xsf/ar2_3.60.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.60000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000
+ Ar     -0.000000     -0.000000      3.600000
+
+ Cohesive energy            :           -0.00728698 eV
+ Total energy               :        -2574.65138294 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 14
+ File name         : ../xsf/ar2_3.65.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.65000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      3.650000
+
+ Cohesive energy            :           -0.00879495 eV
+ Total energy               :        -2574.65289091 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 15
+ File name         : ../xsf/ar2_3.70.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.70000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000
+ Ar     -0.000000     -0.000000      3.700000
+
+ Cohesive energy            :           -0.00989791 eV
+ Total energy               :        -2574.65399387 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 16
+ File name         : ../xsf/ar2_3.75.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.75000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      3.750000
+
+ Cohesive energy            :           -0.01066766 eV
+ Total energy               :        -2574.65476362 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 17
+ File name         : ../xsf/ar2_3.80.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.80000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      3.800000
+
+ Cohesive energy            :           -0.01116303 eV
+ Total energy               :        -2574.65525899 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 18
+ File name         : ../xsf/ar2_3.85.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.85000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar      0.000000      0.000000      0.000000
+ Ar      0.000000      0.000000      3.850000
+
+ Cohesive energy            :           -0.01143354 eV
+ Total energy               :        -2574.65552949 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 19
+ File name         : ../xsf/ar2_3.90.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.90000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      3.900000
+
+ Cohesive energy            :           -0.01152206 eV
+ Total energy               :        -2574.65561802 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 20
+ File name         : ../xsf/ar2_3.95.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       3.95000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000
+ Ar     -0.000000     -0.000000      3.950000
+
+ Cohesive energy            :           -0.01146581 eV
+ Total energy               :        -2574.65556177 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 21
+ File name         : ../xsf/ar2_4.00.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.00000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      4.000000
+
+ Cohesive energy            :           -0.01129620 eV
+ Total energy               :        -2574.65539216 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 22
+ File name         : ../xsf/ar2_4.05.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.05000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000
+ Ar     -0.000000     -0.000000      4.050000
+
+ Cohesive energy            :           -0.01103899 eV
+ Total energy               :        -2574.65513495 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 23
+ File name         : ../xsf/ar2_4.10.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.10000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000
+ Ar     -0.000000     -0.000000      4.100000
+
+ Cohesive energy            :           -0.01071520 eV
+ Total energy               :        -2574.65481116 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 24
+ File name         : ../xsf/ar2_4.15.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.15000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar      0.000000      0.000000      0.000000
+ Ar      0.000000      0.000000      4.150000
+
+ Cohesive energy            :           -0.01034236 eV
+ Total energy               :        -2574.65443832 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 25
+ File name         : ../xsf/ar2_4.20.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.20000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      4.200000
+
+ Cohesive energy            :           -0.00993547 eV
+ Total energy               :        -2574.65403143 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 26
+ File name         : ../xsf/ar2_4.25.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.25000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      4.250000
+
+ Cohesive energy            :           -0.00950714 eV
+ Total energy               :        -2574.65360310 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 27
+ File name         : ../xsf/ar2_4.30.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.30000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      4.300000
+
+ Cohesive energy            :           -0.00906722 eV
+ Total energy               :        -2574.65316318 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 28
+ File name         : ../xsf/ar2_4.35.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.35000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      4.350000
+
+ Cohesive energy            :           -0.00862233 eV
+ Total energy               :        -2574.65271828 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 29
+ File name         : ../xsf/ar2_4.40.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.40000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar      0.000000      0.000000      0.000000
+ Ar      0.000000      0.000000      4.400000
+
+ Cohesive energy            :           -0.00817612 eV
+ Total energy               :        -2574.65227208 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 30
+ File name         : ../xsf/ar2_4.45.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.45000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      4.450000
+
+ Cohesive energy            :           -0.00773048 eV
+ Total energy               :        -2574.65182644 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 31
+ File name         : ../xsf/ar2_4.50.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.50000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      4.500000
+
+ Cohesive energy            :           -0.00728735 eV
+ Total energy               :        -2574.65138331 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 32
+ File name         : ../xsf/ar2_4.55.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.55000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      4.550000
+
+ Cohesive energy            :           -0.00685032 eV
+ Total energy               :        -2574.65094628 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 33
+ File name         : ../xsf/ar2_4.60.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.60000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000
+ Ar     -0.000000     -0.000000      4.600000
+
+ Cohesive energy            :           -0.00642505 eV
+ Total energy               :        -2574.65052101 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 34
+ File name         : ../xsf/ar2_4.65.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.65000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      4.650000
+
+ Cohesive energy            :           -0.00601822 eV
+ Total energy               :        -2574.65011418 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 35
+ File name         : ../xsf/ar2_4.70.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.70000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      4.700000
+
+ Cohesive energy            :           -0.00563542 eV
+ Total energy               :        -2574.64973138 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 36
+ File name         : ../xsf/ar2_4.75.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.75000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      4.750000
+
+ Cohesive energy            :           -0.00527889 eV
+ Total energy               :        -2574.64937485 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 37
+ File name         : ../xsf/ar2_4.80.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.80000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      4.800000
+
+ Cohesive energy            :           -0.00494622 eV
+ Total energy               :        -2574.64904218 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 38
+ File name         : ../xsf/ar2_4.85.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.85000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000
+ Ar     -0.000000     -0.000000      4.850000
+
+ Cohesive energy            :           -0.00463033 eV
+ Total energy               :        -2574.64872629 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 39
+ File name         : ../xsf/ar2_4.90.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.90000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      4.900000
+
+ Cohesive energy            :           -0.00432093 eV
+ Total energy               :        -2574.64841689 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 40
+ File name         : ../xsf/ar2_4.95.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       4.95000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar      0.000000      0.000000      0.000000
+ Ar      0.000000      0.000000      4.950000
+
+ Cohesive energy            :           -0.00270337 eV
+ Total energy               :        -2574.64679933 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 41
+ File name         : ../xsf/ar2_5.00.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       5.00000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.000000
+
+ Cohesive energy            :           -0.00270337 eV
+ Total energy               :        -2574.64679933 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 42
+ File name         : ../xsf/ar2_5.05.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       5.05000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.050000
+
+ Cohesive energy            :           -0.00270337 eV
+ Total energy               :        -2574.64679933 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 43
+ File name         : ../xsf/ar2_5.10.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       5.10000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.100000
+
+ Cohesive energy            :           -0.00270337 eV
+ Total energy               :        -2574.64679933 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 44
+ File name         : ../xsf/ar2_5.15.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       5.15000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.150000
+
+ Cohesive energy            :           -0.00270337 eV
+ Total energy               :        -2574.64679933 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 45
+ File name         : ../xsf/ar2_5.20.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       5.20000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.200000
+
+ Cohesive energy            :           -0.00270337 eV
+ Total energy               :        -2574.64679933 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 46
+ File name         : ../xsf/ar2_5.25.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       5.25000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.250000
+
+ Cohesive energy            :           -0.00270337 eV
+ Total energy               :        -2574.64679933 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 47
+ File name         : ../xsf/ar2_5.30.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       5.30000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.300000
+
+ Cohesive energy            :           -0.00270337 eV
+ Total energy               :        -2574.64679933 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 48
+ File name         : ../xsf/ar2_5.35.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       5.35000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.350000
+
+ Cohesive energy            :           -0.00270337 eV
+ Total energy               :        -2574.64679933 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 49
+ File name         : ../xsf/ar2_5.40.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       5.40000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.400000
+
+ Cohesive energy            :           -0.00270337 eV
+ Total energy               :        -2574.64679933 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 50
+ File name         : ../xsf/ar2_5.45.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       5.45000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.450000
+
+ Cohesive energy            :           -0.00270337 eV
+ Total energy               :        -2574.64679933 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 51
+ File name         : ../xsf/ar2_5.50.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       5.50000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar      0.000000      0.000000      0.000000
+ Ar      0.000000      0.000000      5.500000
+
+ Cohesive energy            :           -0.00270337 eV
+ Total energy               :        -2574.64679933 eV
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Structure number  : 52
+ File name         : ../xsf/ar2_5.55.xsf
+ Number of atoms   : 2
+ Number of species : 1
+
+ Lattice vectors (Angstrom):
+
+   a = (        0.00000200       0.00000000       0.00000000 )
+   b = (        0.00000000       0.00000200       0.00000000 )
+   c = (        0.00000000       0.00000000       5.55000200 )
+
+ Cartesian atomic coordinates (input):
+
+          x             y             z      
+         (Ang)         (Ang)         (Ang)   
+ --------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.550000
+
+ Cohesive energy            :           -0.00270337 eV
+ Total energy               :        -2574.64679933 eV
+
+                                                                       
+                          2021-02-14  16:27:33                         
+                                                                       
+ ======================================================================
+                      Atomic Energy Network done.                      
+ ======================================================================

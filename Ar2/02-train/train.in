@@ -1,0 +1,11 @@
+TRAININGSET Ar2.train
+TESTPERCENT 20
+ITERATIONS  1000
+
+TIMING
+
+METHOD
+bfgs
+
+NETWORKS
+Ar Ar.5t-5t.ann 2 5:tanh 5:tanh
