@@ -2,7 +2,7 @@
                   Atomic Energy Network Interpolation                  
  ======================================================================
                                                                        
-                          2021-02-14  20:56:55                         
+                          2021-02-14  22:40:56                         
                                                                        
 
  Copyright (C) 2015-2018 Nongnuch Artrith and Alexander Urban
@@ -87,15 +87,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.458997
- Ar     -0.000000     -0.000000      3.000000      0.000000      0.000000      0.458997
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.463321
+ Ar     -0.000000     -0.000000      3.000000      0.000000      0.000000      0.463321
 
- Cohesive energy            :            0.10033988 eV
- Total energy               :        -2574.54375608 eV
+ Cohesive energy            :            0.10034074 eV
+ Total energy               :        -2574.54375522 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.458997
- Maximum force              :      0.000000      0.000000     -0.458997
- RMS force                  :      0.458997
+ Mean absolute force        :      0.000000      0.000000      0.463321
+ Maximum force              :      0.000000      0.000000     -0.463321
+ RMS force                  :      0.463321
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -117,15 +117,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.391920
- Ar     -0.000000     -0.000000      3.050000      0.000000      0.000000      0.391920
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.390772
+ Ar     -0.000000     -0.000000      3.050000      0.000000      0.000000      0.390772
 
- Cohesive energy            :            0.07895027 eV
- Total energy               :        -2574.56514569 eV
+ Cohesive energy            :            0.07894573 eV
+ Total energy               :        -2574.56515023 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.391920
- Maximum force              :      0.000000      0.000000     -0.391920
- RMS force                  :      0.391920
+ Mean absolute force        :      0.000000      0.000000      0.390772
+ Maximum force              :      0.000000      0.000000     -0.390772
+ RMS force                  :      0.390772
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -147,15 +147,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.321568
- Ar     -0.000000     -0.000000      3.100000      0.000000      0.000000      0.321568
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.322000
+ Ar     -0.000000     -0.000000      3.100000      0.000000      0.000000      0.322000
 
- Cohesive energy            :            0.06116635 eV
- Total energy               :        -2574.58292961 eV
+ Cohesive energy            :            0.06117773 eV
+ Total energy               :        -2574.58291823 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.321568
- Maximum force              :      0.000000      0.000000     -0.321568
- RMS force                  :      0.321568
+ Mean absolute force        :      0.000000      0.000000      0.322000
+ Maximum force              :      0.000000      0.000000     -0.322000
+ RMS force                  :      0.322000
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -177,15 +177,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.264926
- Ar     -0.000000     -0.000000      3.150000      0.000000      0.000000      0.264926
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.265386
+ Ar     -0.000000     -0.000000      3.150000      0.000000      0.000000      0.265386
 
- Cohesive energy            :            0.04655539 eV
- Total energy               :        -2574.59754057 eV
+ Cohesive energy            :            0.04653822 eV
+ Total energy               :        -2574.59755773 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.264926
- Maximum force              :      0.000000      0.000000     -0.264926
- RMS force                  :      0.264926
+ Mean absolute force        :      0.000000      0.000000      0.265386
+ Maximum force              :      0.000000      0.000000     -0.265386
+ RMS force                  :      0.265386
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -207,15 +207,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.217921
- Ar     -0.000000     -0.000000      3.200000      0.000000      0.000000      0.217921
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.217789
+ Ar     -0.000000     -0.000000      3.200000      0.000000      0.000000      0.217789
 
- Cohesive energy            :            0.03451533 eV
- Total energy               :        -2574.60958063 eV
+ Cohesive energy            :            0.03449043 eV
+ Total energy               :        -2574.60960553 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.217921
- Maximum force              :      0.000000      0.000000     -0.217921
- RMS force                  :      0.217921
+ Mean absolute force        :      0.000000      0.000000      0.217789
+ Maximum force              :      0.000000      0.000000     -0.217789
+ RMS force                  :      0.217789
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -237,15 +237,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar      0.000000      0.000000      0.000000      0.000000      0.000000     -0.177790
- Ar      0.000000      0.000000      3.250000      0.000000      0.000000      0.177790
+ Ar      0.000000      0.000000      0.000000      0.000000      0.000000     -0.177365
+ Ar      0.000000      0.000000      3.250000      0.000000      0.000000      0.177365
 
- Cohesive energy            :            0.02465023 eV
- Total energy               :        -2574.61944573 eV
+ Cohesive energy            :            0.02464080 eV
+ Total energy               :        -2574.61945516 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.177790
- Maximum force              :      0.000000      0.000000     -0.177790
- RMS force                  :      0.177790
+ Mean absolute force        :      0.000000      0.000000      0.177365
+ Maximum force              :      0.000000      0.000000     -0.177365
+ RMS force                  :      0.177365
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -267,15 +267,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.144331
- Ar     -0.000000     -0.000000      3.300000      0.000000      0.000000      0.144331
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.143909
+ Ar     -0.000000     -0.000000      3.300000      0.000000      0.000000      0.143909
 
- Cohesive energy            :            0.01662460 eV
- Total energy               :        -2574.62747136 eV
+ Cohesive energy            :            0.01663729 eV
+ Total energy               :        -2574.62745867 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.144331
- Maximum force              :      0.000000      0.000000     -0.144331
- RMS force                  :      0.144331
+ Mean absolute force        :      0.000000      0.000000      0.143909
+ Maximum force              :      0.000000      0.000000     -0.143909
+ RMS force                  :      0.143909
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -297,15 +297,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000     -0.116913
- Ar     -0.000000     -0.000000      3.350000      0.000000      0.000000      0.116913
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000     -0.116687
+ Ar     -0.000000     -0.000000      3.350000      0.000000      0.000000      0.116687
 
- Cohesive energy            :            0.01011586 eV
- Total energy               :        -2574.63398010 eV
+ Cohesive energy            :            0.01014552 eV
+ Total energy               :        -2574.63395043 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.116913
- Maximum force              :      0.000000      0.000000     -0.116913
- RMS force                  :      0.116913
+ Mean absolute force        :      0.000000      0.000000      0.116687
+ Maximum force              :      0.000000      0.000000     -0.116687
+ RMS force                  :      0.116687
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -327,15 +327,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.094114
- Ar     -0.000000     -0.000000      3.400000      0.000000      0.000000      0.094114
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.094233
+ Ar     -0.000000     -0.000000      3.400000      0.000000      0.000000      0.094233
 
- Cohesive energy            :            0.00485660 eV
- Total energy               :        -2574.63923935 eV
+ Cohesive energy            :            0.00488931 eV
+ Total energy               :        -2574.63920664 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.094114
- Maximum force              :      0.000000      0.000000     -0.094114
- RMS force                  :      0.094114
+ Mean absolute force        :      0.000000      0.000000      0.094233
+ Maximum force              :      0.000000      0.000000     -0.094233
+ RMS force                  :      0.094233
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -357,15 +357,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.074888
- Ar     -0.000000     -0.000000      3.450000      0.000000      0.000000      0.074888
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.075293
+ Ar     -0.000000     -0.000000      3.450000      0.000000      0.000000      0.075293
 
- Cohesive energy            :            0.00064535 eV
- Total energy               :        -2574.64345061 eV
+ Cohesive energy            :            0.00066407 eV
+ Total energy               :        -2574.64343189 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.074888
- Maximum force              :      0.000000      0.000000     -0.074888
- RMS force                  :      0.074888
+ Mean absolute force        :      0.000000      0.000000      0.075293
+ Maximum force              :      0.000000      0.000000     -0.075293
+ RMS force                  :      0.075293
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -387,15 +387,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.058843
- Ar     -0.000000     -0.000000      3.500000      0.000000      0.000000      0.058843
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.059233
+ Ar     -0.000000     -0.000000      3.500000      0.000000      0.000000      0.059233
 
- Cohesive energy            :           -0.00268526 eV
- Total energy               :        -2574.64678121 eV
+ Cohesive energy            :           -0.00268776 eV
+ Total energy               :        -2574.64678372 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.058843
- Maximum force              :      0.000000      0.000000     -0.058843
- RMS force                  :      0.058843
+ Mean absolute force        :      0.000000      0.000000      0.059233
+ Maximum force              :      0.000000      0.000000     -0.059233
+ RMS force                  :      0.059233
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -417,15 +417,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000     -0.045625
- Ar     -0.000000     -0.000000      3.550000      0.000000      0.000000      0.045625
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000     -0.045780
+ Ar     -0.000000     -0.000000      3.550000      0.000000      0.000000      0.045780
 
- Cohesive energy            :           -0.00528611 eV
- Total energy               :        -2574.64938207 eV
+ Cohesive energy            :           -0.00530267 eV
+ Total energy               :        -2574.64939863 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.045625
- Maximum force              :      0.000000      0.000000     -0.045625
- RMS force                  :      0.045625
+ Mean absolute force        :      0.000000      0.000000      0.045780
+ Maximum force              :      0.000000      0.000000     -0.045780
+ RMS force                  :      0.045780
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -447,15 +447,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000     -0.034766
- Ar     -0.000000     -0.000000      3.600000      0.000000      0.000000      0.034766
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000     -0.034699
+ Ar     -0.000000     -0.000000      3.600000      0.000000      0.000000      0.034699
 
- Cohesive energy            :           -0.00728698 eV
- Total energy               :        -2574.65138294 eV
+ Cohesive energy            :           -0.00730535 eV
+ Total energy               :        -2574.65140131 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.034766
- Maximum force              :      0.000000      0.000000     -0.034766
- RMS force                  :      0.034766
+ Mean absolute force        :      0.000000      0.000000      0.034699
+ Maximum force              :      0.000000      0.000000     -0.034699
+ RMS force                  :      0.034699
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -477,15 +477,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.025845
- Ar     -0.000000     -0.000000      3.650000      0.000000      0.000000      0.025845
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.025678
+ Ar     -0.000000     -0.000000      3.650000      0.000000      0.000000      0.025678
 
- Cohesive energy            :           -0.00879495 eV
- Total energy               :        -2574.65289091 eV
+ Cohesive energy            :           -0.00880693 eV
+ Total energy               :        -2574.65290288 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.025845
- Maximum force              :      0.000000      0.000000     -0.025845
- RMS force                  :      0.025845
+ Mean absolute force        :      0.000000      0.000000      0.025678
+ Maximum force              :      0.000000      0.000000     -0.025678
+ RMS force                  :      0.025678
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -507,15 +507,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000     -0.018512
- Ar     -0.000000     -0.000000      3.700000      0.000000      0.000000      0.018512
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000     -0.018362
+ Ar     -0.000000     -0.000000      3.700000      0.000000      0.000000      0.018362
 
- Cohesive energy            :           -0.00989791 eV
- Total energy               :        -2574.65399387 eV
+ Cohesive energy            :           -0.00990157 eV
+ Total energy               :        -2574.65399753 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.018512
- Maximum force              :      0.000000      0.000000     -0.018512
- RMS force                  :      0.018512
+ Mean absolute force        :      0.000000      0.000000      0.018362
+ Maximum force              :      0.000000      0.000000     -0.018362
+ RMS force                  :      0.018362
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -537,15 +537,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.012473
- Ar     -0.000000     -0.000000      3.750000      0.000000      0.000000      0.012473
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.012409
+ Ar     -0.000000     -0.000000      3.750000      0.000000      0.000000      0.012409
 
- Cohesive energy            :           -0.01066766 eV
- Total energy               :        -2574.65476362 eV
+ Cohesive energy            :           -0.01066579 eV
+ Total energy               :        -2574.65476175 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.012473
- Maximum force              :      0.000000      0.000000     -0.012473
- RMS force                  :      0.012473
+ Mean absolute force        :      0.000000      0.000000      0.012409
+ Maximum force              :      0.000000      0.000000     -0.012409
+ RMS force                  :      0.012409
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -567,15 +567,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.007506
- Ar     -0.000000     -0.000000      3.800000      0.000000      0.000000      0.007506
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.007538
+ Ar     -0.000000     -0.000000      3.800000      0.000000      0.000000      0.007538
 
- Cohesive energy            :           -0.01116303 eV
- Total energy               :        -2574.65525899 eV
+ Cohesive energy            :           -0.01116044 eV
+ Total energy               :        -2574.65525640 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.007506
- Maximum force              :      0.000000      0.000000     -0.007506
- RMS force                  :      0.007506
+ Mean absolute force        :      0.000000      0.000000      0.007538
+ Maximum force              :      0.000000      0.000000     -0.007538
+ RMS force                  :      0.007538
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -597,15 +597,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar      0.000000      0.000000      0.000000      0.000000      0.000000     -0.003457
- Ar      0.000000      0.000000      3.850000      0.000000      0.000000      0.003457
+ Ar      0.000000      0.000000      0.000000      0.000000      0.000000     -0.003546
+ Ar      0.000000      0.000000      3.850000      0.000000      0.000000      0.003546
 
- Cohesive energy            :           -0.01143354 eV
- Total energy               :        -2574.65552949 eV
+ Cohesive energy            :           -0.01143422 eV
+ Total energy               :        -2574.65553018 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.003457
- Maximum force              :      0.000000      0.000000     -0.003457
- RMS force                  :      0.003457
+ Mean absolute force        :      0.000000      0.000000      0.003546
+ Maximum force              :      0.000000      0.000000     -0.003546
+ RMS force                  :      0.003546
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -627,15 +627,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.000208
- Ar     -0.000000     -0.000000      3.900000      0.000000      0.000000      0.000208
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.000291
+ Ar     -0.000000     -0.000000      3.900000      0.000000      0.000000      0.000291
 
- Cohesive energy            :           -0.01152206 eV
- Total energy               :        -2574.65561802 eV
+ Cohesive energy            :           -0.01152729 eV
+ Total energy               :        -2574.65562324 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.000208
- Maximum force              :      0.000000      0.000000     -0.000208
- RMS force                  :      0.000208
+ Mean absolute force        :      0.000000      0.000000      0.000291
+ Maximum force              :      0.000000      0.000000     -0.000291
+ RMS force                  :      0.000291
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -657,15 +657,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000      0.002354
- Ar     -0.000000     -0.000000      3.950000      0.000000      0.000000     -0.002354
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000      0.002321
+ Ar     -0.000000     -0.000000      3.950000      0.000000      0.000000     -0.002321
 
- Cohesive energy            :           -0.01146581 eV
- Total energy               :        -2574.65556177 eV
+ Cohesive energy            :           -0.01147403 eV
+ Total energy               :        -2574.65556999 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.002354
- Maximum force              :      0.000000      0.000000      0.002354
- RMS force                  :      0.002354
+ Mean absolute force        :      0.000000      0.000000      0.002321
+ Maximum force              :      0.000000      0.000000      0.002321
+ RMS force                  :      0.002321
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -687,15 +687,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.004345
- Ar     -0.000000     -0.000000      4.000000      0.000000      0.000000     -0.004345
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.004366
+ Ar     -0.000000     -0.000000      4.000000      0.000000      0.000000     -0.004366
 
- Cohesive energy            :           -0.01129620 eV
- Total energy               :        -2574.65539216 eV
+ Cohesive energy            :           -0.01130466 eV
+ Total energy               :        -2574.65540062 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.004345
- Maximum force              :      0.000000      0.000000      0.004345
- RMS force                  :      0.004345
+ Mean absolute force        :      0.000000      0.000000      0.004366
+ Maximum force              :      0.000000      0.000000      0.004366
+ RMS force                  :      0.004366
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -717,15 +717,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000      0.005873
- Ar     -0.000000     -0.000000      4.050000      0.000000      0.000000     -0.005873
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000      0.005918
+ Ar     -0.000000     -0.000000      4.050000      0.000000      0.000000     -0.005918
 
- Cohesive energy            :           -0.01103899 eV
- Total energy               :        -2574.65513495 eV
+ Cohesive energy            :           -0.01104568 eV
+ Total energy               :        -2574.65514163 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.005873
- Maximum force              :      0.000000      0.000000      0.005873
- RMS force                  :      0.005873
+ Mean absolute force        :      0.000000      0.000000      0.005918
+ Maximum force              :      0.000000      0.000000      0.005918
+ RMS force                  :      0.005918
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -747,15 +747,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000      0.007020
- Ar     -0.000000     -0.000000      4.100000      0.000000      0.000000     -0.007020
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000      0.007056
+ Ar     -0.000000     -0.000000      4.100000      0.000000      0.000000     -0.007056
 
- Cohesive energy            :           -0.01071520 eV
- Total energy               :        -2574.65481116 eV
+ Cohesive energy            :           -0.01071976 eV
+ Total energy               :        -2574.65481572 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.007020
- Maximum force              :      0.000000      0.000000      0.007020
- RMS force                  :      0.007020
+ Mean absolute force        :      0.000000      0.000000      0.007056
+ Maximum force              :      0.000000      0.000000      0.007056
+ RMS force                  :      0.007056
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -777,15 +777,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar      0.000000      0.000000      0.000000      0.000000      0.000000      0.007844
- Ar      0.000000      0.000000      4.150000      0.000000      0.000000     -0.007844
+ Ar      0.000000      0.000000      0.000000      0.000000      0.000000      0.007861
+ Ar      0.000000      0.000000      4.150000      0.000000      0.000000     -0.007861
 
- Cohesive energy            :           -0.01034236 eV
- Total energy               :        -2574.65443832 eV
+ Cohesive energy            :           -0.01034558 eV
+ Total energy               :        -2574.65444154 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.007844
- Maximum force              :      0.000000      0.000000      0.007844
- RMS force                  :      0.007844
+ Mean absolute force        :      0.000000      0.000000      0.007861
+ Maximum force              :      0.000000      0.000000      0.007861
+ RMS force                  :      0.007861
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -807,15 +807,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008390
- Ar     -0.000000     -0.000000      4.200000      0.000000      0.000000     -0.008390
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008406
+ Ar     -0.000000     -0.000000      4.200000      0.000000      0.000000     -0.008406
 
- Cohesive energy            :           -0.00993547 eV
- Total energy               :        -2574.65403143 eV
+ Cohesive energy            :           -0.00993795 eV
+ Total energy               :        -2574.65403391 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.008390
- Maximum force              :      0.000000      0.000000      0.008390
- RMS force                  :      0.008390
+ Mean absolute force        :      0.000000      0.000000      0.008406
+ Maximum force              :      0.000000      0.000000      0.008406
+ RMS force                  :      0.008406
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -837,15 +837,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008710
- Ar     -0.000000     -0.000000      4.250000      0.000000      0.000000     -0.008710
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008750
+ Ar     -0.000000     -0.000000      4.250000      0.000000      0.000000     -0.008750
 
- Cohesive energy            :           -0.00950714 eV
- Total energy               :        -2574.65360310 eV
+ Cohesive energy            :           -0.00950832 eV
+ Total energy               :        -2574.65360428 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.008710
- Maximum force              :      0.000000      0.000000      0.008710
- RMS force                  :      0.008710
+ Mean absolute force        :      0.000000      0.000000      0.008750
+ Maximum force              :      0.000000      0.000000      0.008750
+ RMS force                  :      0.008750
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -867,15 +867,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008865
- Ar     -0.000000     -0.000000      4.300000      0.000000      0.000000     -0.008865
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008938
+ Ar     -0.000000     -0.000000      4.300000      0.000000      0.000000     -0.008938
 
- Cohesive energy            :           -0.00906722 eV
- Total energy               :        -2574.65316318 eV
+ Cohesive energy            :           -0.00906556 eV
+ Total energy               :        -2574.65316151 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.008865
- Maximum force              :      0.000000      0.000000      0.008865
- RMS force                  :      0.008865
+ Mean absolute force        :      0.000000      0.000000      0.008938
+ Maximum force              :      0.000000      0.000000      0.008938
+ RMS force                  :      0.008938
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -897,15 +897,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008919
- Ar     -0.000000     -0.000000      4.350000      0.000000      0.000000     -0.008919
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.009001
+ Ar     -0.000000     -0.000000      4.350000      0.000000      0.000000     -0.009001
 
- Cohesive energy            :           -0.00862233 eV
- Total energy               :        -2574.65271828 eV
+ Cohesive energy            :           -0.00861664 eV
+ Total energy               :        -2574.65271259 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.008919
- Maximum force              :      0.000000      0.000000      0.008919
- RMS force                  :      0.008919
+ Mean absolute force        :      0.000000      0.000000      0.009001
+ Maximum force              :      0.000000      0.000000      0.009001
+ RMS force                  :      0.009001
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -927,15 +927,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar      0.000000      0.000000      0.000000      0.000000      0.000000      0.008924
- Ar      0.000000      0.000000      4.400000      0.000000      0.000000     -0.008924
+ Ar      0.000000      0.000000      0.000000      0.000000      0.000000      0.008961
+ Ar      0.000000      0.000000      4.400000      0.000000      0.000000     -0.008961
 
- Cohesive energy            :           -0.00817612 eV
- Total energy               :        -2574.65227208 eV
+ Cohesive energy            :           -0.00816721 eV
+ Total energy               :        -2574.65226316 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.008924
- Maximum force              :      0.000000      0.000000      0.008924
- RMS force                  :      0.008924
+ Mean absolute force        :      0.000000      0.000000      0.008961
+ Maximum force              :      0.000000      0.000000      0.008961
+ RMS force                  :      0.008961
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -957,15 +957,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008896
- Ar     -0.000000     -0.000000      4.450000      0.000000      0.000000     -0.008896
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008838
+ Ar     -0.000000     -0.000000      4.450000      0.000000      0.000000     -0.008838
 
- Cohesive energy            :           -0.00773048 eV
- Total energy               :        -2574.65182644 eV
+ Cohesive energy            :           -0.00772192 eV
+ Total energy               :        -2574.65181787 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.008896
- Maximum force              :      0.000000      0.000000      0.008896
- RMS force                  :      0.008896
+ Mean absolute force        :      0.000000      0.000000      0.008838
+ Maximum force              :      0.000000      0.000000      0.008838
+ RMS force                  :      0.008838
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -987,15 +987,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008817
- Ar     -0.000000     -0.000000      4.500000      0.000000      0.000000     -0.008817
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008647
+ Ar     -0.000000     -0.000000      4.500000      0.000000      0.000000     -0.008647
 
- Cohesive energy            :           -0.00728735 eV
- Total energy               :        -2574.65138331 eV
+ Cohesive energy            :           -0.00728455 eV
+ Total energy               :        -2574.65138051 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.008817
- Maximum force              :      0.000000      0.000000      0.008817
- RMS force                  :      0.008817
+ Mean absolute force        :      0.000000      0.000000      0.008647
+ Maximum force              :      0.000000      0.000000      0.008647
+ RMS force                  :      0.008647
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -1017,15 +1017,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008645
- Ar     -0.000000     -0.000000      4.550000      0.000000      0.000000     -0.008645
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008406
+ Ar     -0.000000     -0.000000      4.550000      0.000000      0.000000     -0.008406
 
- Cohesive energy            :           -0.00685032 eV
- Total energy               :        -2574.65094628 eV
+ Cohesive energy            :           -0.00685805 eV
+ Total energy               :        -2574.65095401 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.008645
- Maximum force              :      0.000000      0.000000      0.008645
- RMS force                  :      0.008645
+ Mean absolute force        :      0.000000      0.000000      0.008406
+ Maximum force              :      0.000000      0.000000      0.008406
+ RMS force                  :      0.008406
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -1047,15 +1047,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000      0.008343
- Ar     -0.000000     -0.000000      4.600000      0.000000      0.000000     -0.008343
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000      0.008131
+ Ar     -0.000000     -0.000000      4.600000      0.000000      0.000000     -0.008131
 
- Cohesive energy            :           -0.00642505 eV
- Total energy               :        -2574.65052101 eV
+ Cohesive energy            :           -0.00644453 eV
+ Total energy               :        -2574.65054049 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.008343
- Maximum force              :      0.000000      0.000000      0.008343
- RMS force                  :      0.008343
+ Mean absolute force        :      0.000000      0.000000      0.008131
+ Maximum force              :      0.000000      0.000000      0.008131
+ RMS force                  :      0.008131
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -1077,15 +1077,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.007911
- Ar     -0.000000     -0.000000      4.650000      0.000000      0.000000     -0.007911
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.007836
+ Ar     -0.000000     -0.000000      4.650000      0.000000      0.000000     -0.007836
 
- Cohesive energy            :           -0.00601822 eV
- Total energy               :        -2574.65011418 eV
+ Cohesive energy            :           -0.00604531 eV
+ Total energy               :        -2574.65014127 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.007911
- Maximum force              :      0.000000      0.000000      0.007911
- RMS force                  :      0.007911
+ Mean absolute force        :      0.000000      0.000000      0.007836
+ Maximum force              :      0.000000      0.000000      0.007836
+ RMS force                  :      0.007836
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -1107,15 +1107,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.007394
- Ar     -0.000000     -0.000000      4.700000      0.000000      0.000000     -0.007394
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.007529
+ Ar     -0.000000     -0.000000      4.700000      0.000000      0.000000     -0.007529
 
- Cohesive energy            :           -0.00563542 eV
- Total energy               :        -2574.64973138 eV
+ Cohesive energy            :           -0.00566115 eV
+ Total energy               :        -2574.64975711 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.007394
- Maximum force              :      0.000000      0.000000      0.007394
- RMS force                  :      0.007394
+ Mean absolute force        :      0.000000      0.000000      0.007529
+ Maximum force              :      0.000000      0.000000      0.007529
+ RMS force                  :      0.007529
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -1137,15 +1137,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.006876
- Ar     -0.000000     -0.000000      4.750000      0.000000      0.000000     -0.006876
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.007213
+ Ar     -0.000000     -0.000000      4.750000      0.000000      0.000000     -0.007213
 
- Cohesive energy            :           -0.00527889 eV
- Total energy               :        -2574.64937485 eV
+ Cohesive energy            :           -0.00529253 eV
+ Total energy               :        -2574.64938849 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.006876
- Maximum force              :      0.000000      0.000000      0.006876
- RMS force                  :      0.006876
+ Mean absolute force        :      0.000000      0.000000      0.007213
+ Maximum force              :      0.000000      0.000000      0.007213
+ RMS force                  :      0.007213
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -1167,15 +1167,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.006455
- Ar     -0.000000     -0.000000      4.800000      0.000000      0.000000     -0.006455
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.006878
+ Ar     -0.000000     -0.000000      4.800000      0.000000      0.000000     -0.006878
 
- Cohesive energy            :           -0.00494622 eV
- Total energy               :        -2574.64904218 eV
+ Cohesive energy            :           -0.00494013 eV
+ Total energy               :        -2574.64903609 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.006455
- Maximum force              :      0.000000      0.000000      0.006455
- RMS force                  :      0.006455
+ Mean absolute force        :      0.000000      0.000000      0.006878
+ Maximum force              :      0.000000      0.000000      0.006878
+ RMS force                  :      0.006878
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -1197,15 +1197,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000      0.006215
- Ar     -0.000000     -0.000000      4.850000      0.000000      0.000000     -0.006215
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000      0.006507
+ Ar     -0.000000     -0.000000      4.850000      0.000000      0.000000     -0.006507
 
- Cohesive energy            :           -0.00463033 eV
- Total energy               :        -2574.64872629 eV
+ Cohesive energy            :           -0.00460529 eV
+ Total energy               :        -2574.64870125 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.006215
- Maximum force              :      0.000000      0.000000      0.006215
- RMS force                  :      0.006215
+ Mean absolute force        :      0.000000      0.000000      0.006507
+ Maximum force              :      0.000000      0.000000      0.006507
+ RMS force                  :      0.006507
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -1227,15 +1227,15 @@
           x             y             z             Fx           Fy            Fz      
          (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
  --------------------------------------------------------------------------------------
- Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.006199
- Ar     -0.000000     -0.000000      4.900000      0.000000      0.000000     -0.006199
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.006078
+ Ar     -0.000000     -0.000000      4.900000      0.000000      0.000000     -0.006078
 
- Cohesive energy            :           -0.00432093 eV
- Total energy               :        -2574.64841689 eV
+ Cohesive energy            :           -0.00429036 eV
+ Total energy               :        -2574.64838632 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
- Mean absolute force        :      0.000000      0.000000      0.006199
- Maximum force              :      0.000000      0.000000      0.006199
- RMS force                  :      0.006199
+ Mean absolute force        :      0.000000      0.000000      0.006078
+ Maximum force              :      0.000000      0.000000      0.006078
+ RMS force                  :      0.006078
  The maximum force is acting on atom 1.
  All forces are given in eV/Angstrom.
 
@@ -1260,8 +1260,8 @@
  Ar      0.000000      0.000000      0.000000      0.000000      0.000000      0.000000
  Ar      0.000000      0.000000      4.950000      0.000000      0.000000      0.000000
 
- Cohesive energy            :           -0.00270337 eV
- Total energy               :        -2574.64679933 eV
+ Cohesive energy            :           -0.00270336 eV
+ Total energy               :        -2574.64679932 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
  Mean absolute force        :      0.000000      0.000000      0.000000
  Maximum force              :      0.000000      0.000000      0.000000
@@ -1290,8 +1290,8 @@
  Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
  Ar     -0.000000     -0.000000      5.000000      0.000000      0.000000      0.000000
 
- Cohesive energy            :           -0.00270337 eV
- Total energy               :        -2574.64679933 eV
+ Cohesive energy            :           -0.00270336 eV
+ Total energy               :        -2574.64679932 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
  Mean absolute force        :      0.000000      0.000000      0.000000
  Maximum force              :      0.000000      0.000000      0.000000
@@ -1320,8 +1320,8 @@
  Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
  Ar     -0.000000     -0.000000      5.050000      0.000000      0.000000      0.000000
 
- Cohesive energy            :           -0.00270337 eV
- Total energy               :        -2574.64679933 eV
+ Cohesive energy            :           -0.00270336 eV
+ Total energy               :        -2574.64679932 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
  Mean absolute force        :      0.000000      0.000000      0.000000
  Maximum force              :      0.000000      0.000000      0.000000
@@ -1350,8 +1350,8 @@
  Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
  Ar     -0.000000     -0.000000      5.100000      0.000000      0.000000      0.000000
 
- Cohesive energy            :           -0.00270337 eV
- Total energy               :        -2574.64679933 eV
+ Cohesive energy            :           -0.00270336 eV
+ Total energy               :        -2574.64679932 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
  Mean absolute force        :      0.000000      0.000000      0.000000
  Maximum force              :      0.000000      0.000000      0.000000
@@ -1380,8 +1380,8 @@
  Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
  Ar     -0.000000     -0.000000      5.150000      0.000000      0.000000      0.000000
 
- Cohesive energy            :           -0.00270337 eV
- Total energy               :        -2574.64679933 eV
+ Cohesive energy            :           -0.00270336 eV
+ Total energy               :        -2574.64679932 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
  Mean absolute force        :      0.000000      0.000000      0.000000
  Maximum force              :      0.000000      0.000000      0.000000
@@ -1410,8 +1410,8 @@
  Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
  Ar     -0.000000     -0.000000      5.200000      0.000000      0.000000      0.000000
 
- Cohesive energy            :           -0.00270337 eV
- Total energy               :        -2574.64679933 eV
+ Cohesive energy            :           -0.00270336 eV
+ Total energy               :        -2574.64679932 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
  Mean absolute force        :      0.000000      0.000000      0.000000
  Maximum force              :      0.000000      0.000000      0.000000
@@ -1440,8 +1440,8 @@
  Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
  Ar     -0.000000     -0.000000      5.250000      0.000000      0.000000      0.000000
 
- Cohesive energy            :           -0.00270337 eV
- Total energy               :        -2574.64679933 eV
+ Cohesive energy            :           -0.00270336 eV
+ Total energy               :        -2574.64679932 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
  Mean absolute force        :      0.000000      0.000000      0.000000
  Maximum force              :      0.000000      0.000000      0.000000
@@ -1470,8 +1470,8 @@
  Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
  Ar     -0.000000     -0.000000      5.300000      0.000000      0.000000      0.000000
 
- Cohesive energy            :           -0.00270337 eV
- Total energy               :        -2574.64679933 eV
+ Cohesive energy            :           -0.00270336 eV
+ Total energy               :        -2574.64679932 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
  Mean absolute force        :      0.000000      0.000000      0.000000
  Maximum force              :      0.000000      0.000000      0.000000
@@ -1500,8 +1500,8 @@
  Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
  Ar     -0.000000     -0.000000      5.350000      0.000000      0.000000      0.000000
 
- Cohesive energy            :           -0.00270337 eV
- Total energy               :        -2574.64679933 eV
+ Cohesive energy            :           -0.00270336 eV
+ Total energy               :        -2574.64679932 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
  Mean absolute force        :      0.000000      0.000000      0.000000
  Maximum force              :      0.000000      0.000000      0.000000
@@ -1530,8 +1530,8 @@
  Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
  Ar     -0.000000     -0.000000      5.400000      0.000000      0.000000      0.000000
 
- Cohesive energy            :           -0.00270337 eV
- Total energy               :        -2574.64679933 eV
+ Cohesive energy            :           -0.00270336 eV
+ Total energy               :        -2574.64679932 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
  Mean absolute force        :      0.000000      0.000000      0.000000
  Maximum force              :      0.000000      0.000000      0.000000
@@ -1560,8 +1560,8 @@
  Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
  Ar     -0.000000     -0.000000      5.450000      0.000000      0.000000      0.000000
 
- Cohesive energy            :           -0.00270337 eV
- Total energy               :        -2574.64679933 eV
+ Cohesive energy            :           -0.00270336 eV
+ Total energy               :        -2574.64679932 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
  Mean absolute force        :      0.000000      0.000000      0.000000
  Maximum force              :      0.000000      0.000000      0.000000
@@ -1590,8 +1590,8 @@
  Ar      0.000000      0.000000      0.000000      0.000000      0.000000      0.000000
  Ar      0.000000      0.000000      5.500000      0.000000      0.000000      0.000000
 
- Cohesive energy            :           -0.00270337 eV
- Total energy               :        -2574.64679933 eV
+ Cohesive energy            :           -0.00270336 eV
+ Total energy               :        -2574.64679932 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
  Mean absolute force        :      0.000000      0.000000      0.000000
  Maximum force              :      0.000000      0.000000      0.000000
@@ -1620,8 +1620,8 @@
  Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
  Ar     -0.000000     -0.000000      5.550000      0.000000      0.000000      0.000000
 
- Cohesive energy            :           -0.00270337 eV
- Total energy               :        -2574.64679933 eV
+ Cohesive energy            :           -0.00270336 eV
+ Total energy               :        -2574.64679932 eV
  Mean force (must be zero)  :      0.000000      0.000000      0.000000
  Mean absolute force        :      0.000000      0.000000      0.000000
  Maximum force              :      0.000000      0.000000      0.000000
@@ -1630,7 +1630,7 @@
  All forces are given in eV/Angstrom.
 
                                                                        
-                          2021-02-14  20:56:55                         
+                          2021-02-14  22:40:56                         
                                                                        
  ======================================================================
                       Atomic Energy Network done.                      
