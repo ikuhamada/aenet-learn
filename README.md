@@ -29,8 +29,8 @@ Analytic Lenard-Jones potential
 
 ### Water dimer
 
-Water dimer calculated with vdW-DF
+Water dimer calculated with vdW-DF (rev-vdW-DF2)
 
 ### Argon dimer
 
-Argon dimer calculated with vdW-DF (to be added)
+Argon dimer calculated with vdW-DF (rev-vdW-DF2)

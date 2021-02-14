@@ -2,7 +2,7 @@
                   Atomic Energy Network Interpolation                  
  ======================================================================
                                                                        
-                          2021-02-14  16:27:33                         
+                          2021-02-14  20:56:55                         
                                                                        
 
  Copyright (C) 2015-2018 Nongnuch Artrith and Alexander Urban
@@ -82,16 +82,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.00000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      3.000000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.458997
+ Ar     -0.000000     -0.000000      3.000000      0.000000      0.000000      0.458997
 
  Cohesive energy            :            0.10033988 eV
  Total energy               :        -2574.54375608 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.458997
+ Maximum force              :      0.000000      0.000000     -0.458997
+ RMS force                  :      0.458997
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -106,16 +112,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.05000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      3.050000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.391920
+ Ar     -0.000000     -0.000000      3.050000      0.000000      0.000000      0.391920
 
  Cohesive energy            :            0.07895027 eV
  Total energy               :        -2574.56514569 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.391920
+ Maximum force              :      0.000000      0.000000     -0.391920
+ RMS force                  :      0.391920
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -130,16 +142,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.10000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      3.100000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.321568
+ Ar     -0.000000     -0.000000      3.100000      0.000000      0.000000      0.321568
 
  Cohesive energy            :            0.06116635 eV
  Total energy               :        -2574.58292961 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.321568
+ Maximum force              :      0.000000      0.000000     -0.321568
+ RMS force                  :      0.321568
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -154,16 +172,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.15000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      3.150000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.264926
+ Ar     -0.000000     -0.000000      3.150000      0.000000      0.000000      0.264926
 
  Cohesive energy            :            0.04655539 eV
  Total energy               :        -2574.59754057 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.264926
+ Maximum force              :      0.000000      0.000000     -0.264926
+ RMS force                  :      0.264926
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -178,16 +202,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.20000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      3.200000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.217921
+ Ar     -0.000000     -0.000000      3.200000      0.000000      0.000000      0.217921
 
  Cohesive energy            :            0.03451533 eV
  Total energy               :        -2574.60958063 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.217921
+ Maximum force              :      0.000000      0.000000     -0.217921
+ RMS force                  :      0.217921
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -202,16 +232,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.25000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar      0.000000      0.000000      0.000000
- Ar      0.000000      0.000000      3.250000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar      0.000000      0.000000      0.000000      0.000000      0.000000     -0.177790
+ Ar      0.000000      0.000000      3.250000      0.000000      0.000000      0.177790
 
  Cohesive energy            :            0.02465023 eV
  Total energy               :        -2574.61944573 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.177790
+ Maximum force              :      0.000000      0.000000     -0.177790
+ RMS force                  :      0.177790
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -226,16 +262,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.30000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      3.300000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.144331
+ Ar     -0.000000     -0.000000      3.300000      0.000000      0.000000      0.144331
 
  Cohesive energy            :            0.01662460 eV
  Total energy               :        -2574.62747136 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.144331
+ Maximum force              :      0.000000      0.000000     -0.144331
+ RMS force                  :      0.144331
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -250,16 +292,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.35000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000
- Ar     -0.000000     -0.000000      3.350000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000     -0.116913
+ Ar     -0.000000     -0.000000      3.350000      0.000000      0.000000      0.116913
 
  Cohesive energy            :            0.01011586 eV
  Total energy               :        -2574.63398010 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.116913
+ Maximum force              :      0.000000      0.000000     -0.116913
+ RMS force                  :      0.116913
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -274,16 +322,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.40000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      3.400000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.094114
+ Ar     -0.000000     -0.000000      3.400000      0.000000      0.000000      0.094114
 
  Cohesive energy            :            0.00485660 eV
  Total energy               :        -2574.63923935 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.094114
+ Maximum force              :      0.000000      0.000000     -0.094114
+ RMS force                  :      0.094114
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -298,16 +352,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.45000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      3.450000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.074888
+ Ar     -0.000000     -0.000000      3.450000      0.000000      0.000000      0.074888
 
  Cohesive energy            :            0.00064535 eV
  Total energy               :        -2574.64345061 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.074888
+ Maximum force              :      0.000000      0.000000     -0.074888
+ RMS force                  :      0.074888
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -322,16 +382,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.50000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      3.500000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.058843
+ Ar     -0.000000     -0.000000      3.500000      0.000000      0.000000      0.058843
 
  Cohesive energy            :           -0.00268526 eV
  Total energy               :        -2574.64678121 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.058843
+ Maximum force              :      0.000000      0.000000     -0.058843
+ RMS force                  :      0.058843
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -346,16 +412,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.55000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000
- Ar     -0.000000     -0.000000      3.550000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000     -0.045625
+ Ar     -0.000000     -0.000000      3.550000      0.000000      0.000000      0.045625
 
  Cohesive energy            :           -0.00528611 eV
  Total energy               :        -2574.64938207 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.045625
+ Maximum force              :      0.000000      0.000000     -0.045625
+ RMS force                  :      0.045625
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -370,16 +442,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.60000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000
- Ar     -0.000000     -0.000000      3.600000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000     -0.034766
+ Ar     -0.000000     -0.000000      3.600000      0.000000      0.000000      0.034766
 
  Cohesive energy            :           -0.00728698 eV
  Total energy               :        -2574.65138294 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.034766
+ Maximum force              :      0.000000      0.000000     -0.034766
+ RMS force                  :      0.034766
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -394,16 +472,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.65000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      3.650000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.025845
+ Ar     -0.000000     -0.000000      3.650000      0.000000      0.000000      0.025845
 
  Cohesive energy            :           -0.00879495 eV
  Total energy               :        -2574.65289091 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.025845
+ Maximum force              :      0.000000      0.000000     -0.025845
+ RMS force                  :      0.025845
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -418,16 +502,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.70000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000
- Ar     -0.000000     -0.000000      3.700000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000     -0.018512
+ Ar     -0.000000     -0.000000      3.700000      0.000000      0.000000      0.018512
 
  Cohesive energy            :           -0.00989791 eV
  Total energy               :        -2574.65399387 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.018512
+ Maximum force              :      0.000000      0.000000     -0.018512
+ RMS force                  :      0.018512
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -442,16 +532,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.75000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      3.750000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.012473
+ Ar     -0.000000     -0.000000      3.750000      0.000000      0.000000      0.012473
 
  Cohesive energy            :           -0.01066766 eV
  Total energy               :        -2574.65476362 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.012473
+ Maximum force              :      0.000000      0.000000     -0.012473
+ RMS force                  :      0.012473
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -466,16 +562,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.80000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      3.800000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.007506
+ Ar     -0.000000     -0.000000      3.800000      0.000000      0.000000      0.007506
 
  Cohesive energy            :           -0.01116303 eV
  Total energy               :        -2574.65525899 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.007506
+ Maximum force              :      0.000000      0.000000     -0.007506
+ RMS force                  :      0.007506
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -490,16 +592,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.85000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar      0.000000      0.000000      0.000000
- Ar      0.000000      0.000000      3.850000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar      0.000000      0.000000      0.000000      0.000000      0.000000     -0.003457
+ Ar      0.000000      0.000000      3.850000      0.000000      0.000000      0.003457
 
  Cohesive energy            :           -0.01143354 eV
  Total energy               :        -2574.65552949 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.003457
+ Maximum force              :      0.000000      0.000000     -0.003457
+ RMS force                  :      0.003457
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -514,16 +622,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.90000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      3.900000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000     -0.000208
+ Ar     -0.000000     -0.000000      3.900000      0.000000      0.000000      0.000208
 
  Cohesive energy            :           -0.01152206 eV
  Total energy               :        -2574.65561802 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.000208
+ Maximum force              :      0.000000      0.000000     -0.000208
+ RMS force                  :      0.000208
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -538,16 +652,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       3.95000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000
- Ar     -0.000000     -0.000000      3.950000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000      0.002354
+ Ar     -0.000000     -0.000000      3.950000      0.000000      0.000000     -0.002354
 
  Cohesive energy            :           -0.01146581 eV
  Total energy               :        -2574.65556177 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.002354
+ Maximum force              :      0.000000      0.000000      0.002354
+ RMS force                  :      0.002354
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -562,16 +682,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.00000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      4.000000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.004345
+ Ar     -0.000000     -0.000000      4.000000      0.000000      0.000000     -0.004345
 
  Cohesive energy            :           -0.01129620 eV
  Total energy               :        -2574.65539216 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.004345
+ Maximum force              :      0.000000      0.000000      0.004345
+ RMS force                  :      0.004345
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -586,16 +712,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.05000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000
- Ar     -0.000000     -0.000000      4.050000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000      0.005873
+ Ar     -0.000000     -0.000000      4.050000      0.000000      0.000000     -0.005873
 
  Cohesive energy            :           -0.01103899 eV
  Total energy               :        -2574.65513495 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.005873
+ Maximum force              :      0.000000      0.000000      0.005873
+ RMS force                  :      0.005873
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -610,16 +742,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.10000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000
- Ar     -0.000000     -0.000000      4.100000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000      0.007020
+ Ar     -0.000000     -0.000000      4.100000      0.000000      0.000000     -0.007020
 
  Cohesive energy            :           -0.01071520 eV
  Total energy               :        -2574.65481116 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.007020
+ Maximum force              :      0.000000      0.000000      0.007020
+ RMS force                  :      0.007020
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -634,16 +772,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.15000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar      0.000000      0.000000      0.000000
- Ar      0.000000      0.000000      4.150000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar      0.000000      0.000000      0.000000      0.000000      0.000000      0.007844
+ Ar      0.000000      0.000000      4.150000      0.000000      0.000000     -0.007844
 
  Cohesive energy            :           -0.01034236 eV
  Total energy               :        -2574.65443832 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.007844
+ Maximum force              :      0.000000      0.000000      0.007844
+ RMS force                  :      0.007844
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -658,16 +802,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.20000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      4.200000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008390
+ Ar     -0.000000     -0.000000      4.200000      0.000000      0.000000     -0.008390
 
  Cohesive energy            :           -0.00993547 eV
  Total energy               :        -2574.65403143 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.008390
+ Maximum force              :      0.000000      0.000000      0.008390
+ RMS force                  :      0.008390
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -682,16 +832,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.25000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      4.250000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008710
+ Ar     -0.000000     -0.000000      4.250000      0.000000      0.000000     -0.008710
 
  Cohesive energy            :           -0.00950714 eV
  Total energy               :        -2574.65360310 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.008710
+ Maximum force              :      0.000000      0.000000      0.008710
+ RMS force                  :      0.008710
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -706,16 +862,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.30000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      4.300000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008865
+ Ar     -0.000000     -0.000000      4.300000      0.000000      0.000000     -0.008865
 
  Cohesive energy            :           -0.00906722 eV
  Total energy               :        -2574.65316318 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.008865
+ Maximum force              :      0.000000      0.000000      0.008865
+ RMS force                  :      0.008865
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -730,16 +892,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.35000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      4.350000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008919
+ Ar     -0.000000     -0.000000      4.350000      0.000000      0.000000     -0.008919
 
  Cohesive energy            :           -0.00862233 eV
  Total energy               :        -2574.65271828 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.008919
+ Maximum force              :      0.000000      0.000000      0.008919
+ RMS force                  :      0.008919
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -754,16 +922,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.40000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar      0.000000      0.000000      0.000000
- Ar      0.000000      0.000000      4.400000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar      0.000000      0.000000      0.000000      0.000000      0.000000      0.008924
+ Ar      0.000000      0.000000      4.400000      0.000000      0.000000     -0.008924
 
  Cohesive energy            :           -0.00817612 eV
  Total energy               :        -2574.65227208 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.008924
+ Maximum force              :      0.000000      0.000000      0.008924
+ RMS force                  :      0.008924
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -778,16 +952,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.45000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      4.450000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008896
+ Ar     -0.000000     -0.000000      4.450000      0.000000      0.000000     -0.008896
 
  Cohesive energy            :           -0.00773048 eV
  Total energy               :        -2574.65182644 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.008896
+ Maximum force              :      0.000000      0.000000      0.008896
+ RMS force                  :      0.008896
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -802,16 +982,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.50000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      4.500000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008817
+ Ar     -0.000000     -0.000000      4.500000      0.000000      0.000000     -0.008817
 
  Cohesive energy            :           -0.00728735 eV
  Total energy               :        -2574.65138331 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.008817
+ Maximum force              :      0.000000      0.000000      0.008817
+ RMS force                  :      0.008817
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -826,16 +1012,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.55000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      4.550000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.008645
+ Ar     -0.000000     -0.000000      4.550000      0.000000      0.000000     -0.008645
 
  Cohesive energy            :           -0.00685032 eV
  Total energy               :        -2574.65094628 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.008645
+ Maximum force              :      0.000000      0.000000      0.008645
+ RMS force                  :      0.008645
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -850,16 +1042,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.60000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000
- Ar     -0.000000     -0.000000      4.600000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000      0.008343
+ Ar     -0.000000     -0.000000      4.600000      0.000000      0.000000     -0.008343
 
  Cohesive energy            :           -0.00642505 eV
  Total energy               :        -2574.65052101 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.008343
+ Maximum force              :      0.000000      0.000000      0.008343
+ RMS force                  :      0.008343
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -874,16 +1072,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.65000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      4.650000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.007911
+ Ar     -0.000000     -0.000000      4.650000      0.000000      0.000000     -0.007911
 
  Cohesive energy            :           -0.00601822 eV
  Total energy               :        -2574.65011418 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.007911
+ Maximum force              :      0.000000      0.000000      0.007911
+ RMS force                  :      0.007911
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -898,16 +1102,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.70000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      4.700000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.007394
+ Ar     -0.000000     -0.000000      4.700000      0.000000      0.000000     -0.007394
 
  Cohesive energy            :           -0.00563542 eV
  Total energy               :        -2574.64973138 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.007394
+ Maximum force              :      0.000000      0.000000      0.007394
+ RMS force                  :      0.007394
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -922,16 +1132,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.75000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      4.750000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.006876
+ Ar     -0.000000     -0.000000      4.750000      0.000000      0.000000     -0.006876
 
  Cohesive energy            :           -0.00527889 eV
  Total energy               :        -2574.64937485 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.006876
+ Maximum force              :      0.000000      0.000000      0.006876
+ RMS force                  :      0.006876
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -946,16 +1162,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.80000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      4.800000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.006455
+ Ar     -0.000000     -0.000000      4.800000      0.000000      0.000000     -0.006455
 
  Cohesive energy            :           -0.00494622 eV
  Total energy               :        -2574.64904218 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.006455
+ Maximum force              :      0.000000      0.000000      0.006455
+ RMS force                  :      0.006455
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -970,16 +1192,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.85000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000     -0.000000
- Ar     -0.000000     -0.000000      4.850000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000     -0.000000      0.000000      0.000000      0.006215
+ Ar     -0.000000     -0.000000      4.850000      0.000000      0.000000     -0.006215
 
  Cohesive energy            :           -0.00463033 eV
  Total energy               :        -2574.64872629 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.006215
+ Maximum force              :      0.000000      0.000000      0.006215
+ RMS force                  :      0.006215
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -994,16 +1222,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.90000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      4.900000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.006199
+ Ar     -0.000000     -0.000000      4.900000      0.000000      0.000000     -0.006199
 
  Cohesive energy            :           -0.00432093 eV
  Total energy               :        -2574.64841689 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.006199
+ Maximum force              :      0.000000      0.000000      0.006199
+ RMS force                  :      0.006199
+ The maximum force is acting on atom 1.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -1018,16 +1252,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       4.95000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar      0.000000      0.000000      0.000000
- Ar      0.000000      0.000000      4.950000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar      0.000000      0.000000      0.000000      0.000000      0.000000      0.000000
+ Ar      0.000000      0.000000      4.950000      0.000000      0.000000      0.000000
 
  Cohesive energy            :           -0.00270337 eV
  Total energy               :        -2574.64679933 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.000000
+ Maximum force              :      0.000000      0.000000      0.000000
+ RMS force                  :      0.000000
+ The maximum force is acting on atom 1075039436.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -1042,16 +1282,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       5.00000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      5.000000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.000000      0.000000      0.000000      0.000000
 
  Cohesive energy            :           -0.00270337 eV
  Total energy               :        -2574.64679933 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.000000
+ Maximum force              :      0.000000      0.000000      0.000000
+ RMS force                  :      0.000000
+ The maximum force is acting on atom 1075052544.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -1066,16 +1312,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       5.05000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      5.050000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.050000      0.000000      0.000000      0.000000
 
  Cohesive energy            :           -0.00270337 eV
  Total energy               :        -2574.64679933 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.000000
+ Maximum force              :      0.000000      0.000000      0.000000
+ RMS force                  :      0.000000
+ The maximum force is acting on atom 1075065651.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -1090,16 +1342,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       5.10000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      5.100000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.100000      0.000000      0.000000      0.000000
 
  Cohesive energy            :           -0.00270337 eV
  Total energy               :        -2574.64679933 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.000000
+ Maximum force              :      0.000000      0.000000      0.000000
+ RMS force                  :      0.000000
+ The maximum force is acting on atom 1075078758.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -1114,16 +1372,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       5.15000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      5.150000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.150000      0.000000      0.000000      0.000000
 
  Cohesive energy            :           -0.00270337 eV
  Total energy               :        -2574.64679933 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.000000
+ Maximum force              :      0.000000      0.000000      0.000000
+ RMS force                  :      0.000000
+ The maximum force is acting on atom 1075091865.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -1138,16 +1402,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       5.20000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      5.200000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.200000      0.000000      0.000000      0.000000
 
  Cohesive energy            :           -0.00270337 eV
  Total energy               :        -2574.64679933 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.000000
+ Maximum force              :      0.000000      0.000000      0.000000
+ RMS force                  :      0.000000
+ The maximum force is acting on atom 1075104972.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -1162,16 +1432,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       5.25000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      5.250000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.250000      0.000000      0.000000      0.000000
 
  Cohesive energy            :           -0.00270337 eV
  Total energy               :        -2574.64679933 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.000000
+ Maximum force              :      0.000000      0.000000      0.000000
+ RMS force                  :      0.000000
+ The maximum force is acting on atom 1075118080.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -1186,16 +1462,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       5.30000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      5.300000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.300000      0.000000      0.000000      0.000000
 
  Cohesive energy            :           -0.00270337 eV
  Total energy               :        -2574.64679933 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.000000
+ Maximum force              :      0.000000      0.000000      0.000000
+ RMS force                  :      0.000000
+ The maximum force is acting on atom 1075131187.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -1210,16 +1492,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       5.35000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      5.350000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.350000      0.000000      0.000000      0.000000
 
  Cohesive energy            :           -0.00270337 eV
  Total energy               :        -2574.64679933 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.000000
+ Maximum force              :      0.000000      0.000000      0.000000
+ RMS force                  :      0.000000
+ The maximum force is acting on atom 1075144294.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -1234,16 +1522,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       5.40000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      5.400000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.400000      0.000000      0.000000      0.000000
 
  Cohesive energy            :           -0.00270337 eV
  Total energy               :        -2574.64679933 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.000000
+ Maximum force              :      0.000000      0.000000      0.000000
+ RMS force                  :      0.000000
+ The maximum force is acting on atom 1075157401.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -1258,16 +1552,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       5.45000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      5.450000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.450000      0.000000      0.000000      0.000000
 
  Cohesive energy            :           -0.00270337 eV
  Total energy               :        -2574.64679933 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.000000
+ Maximum force              :      0.000000      0.000000      0.000000
+ RMS force                  :      0.000000
+ The maximum force is acting on atom 1075170508.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -1282,16 +1582,22 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       5.50000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar      0.000000      0.000000      0.000000
- Ar      0.000000      0.000000      5.500000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar      0.000000      0.000000      0.000000      0.000000      0.000000      0.000000
+ Ar      0.000000      0.000000      5.500000      0.000000      0.000000      0.000000
 
  Cohesive energy            :           -0.00270337 eV
  Total energy               :        -2574.64679933 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.000000
+ Maximum force              :      0.000000      0.000000      0.000000
+ RMS force                  :      0.000000
+ The maximum force is acting on atom 1075183616.
+ All forces are given in eV/Angstrom.
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -1306,19 +1612,25 @@
    b = (        0.00000000       0.00000200       0.00000000 )
    c = (        0.00000000       0.00000000       5.55000200 )
 
- Cartesian atomic coordinates (input):
+ Cartesian atomic coordinates (input) and corresponding atomic forces:
 
-          x             y             z      
-         (Ang)         (Ang)         (Ang)   
- --------------------------------------------
- Ar     -0.000000     -0.000000      0.000000
- Ar     -0.000000     -0.000000      5.550000
+          x             y             z             Fx           Fy            Fz      
+         (Ang)         (Ang)         (Ang)       (eV/Ang)      (eV/Ang)      (eV/Ang)  
+ --------------------------------------------------------------------------------------
+ Ar     -0.000000     -0.000000      0.000000      0.000000      0.000000      0.000000
+ Ar     -0.000000     -0.000000      5.550000      0.000000      0.000000      0.000000
 
  Cohesive energy            :           -0.00270337 eV
  Total energy               :        -2574.64679933 eV
+ Mean force (must be zero)  :      0.000000      0.000000      0.000000
+ Mean absolute force        :      0.000000      0.000000      0.000000
+ Maximum force              :      0.000000      0.000000      0.000000
+ RMS force                  :      0.000000
+ The maximum force is acting on atom 1075196723.
+ All forces are given in eV/Angstrom.
 
                                                                        
-                          2021-02-14  16:27:33                         
+                          2021-02-14  20:56:55                         
                                                                        
  ======================================================================
                       Atomic Energy Network done.                      
